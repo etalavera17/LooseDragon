@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x98dd3b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x98ca270" />
+  <activeNode nodeId="node-0x98bee80" />
   <item nodeId="node-0x98dd3b0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -15,8 +15,8 @@ Living room
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">NO</temporary>
+    <changed>NO</changed>
+    <temporary score="13">NO</temporary>
     <children>
       <child nodeId="node-0x98b6720" />
     </children>
@@ -28,8 +28,8 @@ Kitchen
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="13">YES</temporary>
     <children>
       <child nodeId="node-0x94aa760" />
     </children>
@@ -41,8 +41,8 @@ Living room
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="13">YES</temporary>
     <children>
       <child nodeId="node-0x98c2de0" />
     </children>
@@ -54,8 +54,8 @@ Basement
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="13">YES</temporary>
     <children>
       <child nodeId="node-0x98c1080" />
     </children>
@@ -67,16 +67,42 @@ Living room
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="13">YES</temporary>
     <children>
       <child nodeId="node-0x98ca270" />
     </children>
   </item>
   <item nodeId="node-0x98ca270">
     <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Training Room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="13">YES</temporary>
+    <children>
+      <child nodeId="node-0x9841c50" />
+    </children>
+  </item>
+  <item nodeId="node-0x9841c50">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Bedroom
+
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="5">YES</temporary>
+    <temporary score="13">YES</temporary>
+    <children>
+      <child nodeId="node-0x98bee80" />
+    </children>
+  </item>
+  <item nodeId="node-0x98bee80">
+    <command xml:space="preserve">s</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
   </item>
 </Skein>
