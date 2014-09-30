@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x98dd3b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x98ca270" />
+  <item nodeId="node-0x98dd3b0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+Loose Dragon
+An Interactive Fiction by EJ Talavera
+Release 1 / Serial number 140929 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Living room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">NO</temporary>
+    <children>
+      <child nodeId="node-0x98b6720" />
+    </children>
+  </item>
+  <item nodeId="node-0x98b6720">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Kitchen
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x94aa760" />
+    </children>
+  </item>
+  <item nodeId="node-0x94aa760">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Living room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x98c2de0" />
+    </children>
+  </item>
+  <item nodeId="node-0x98c2de0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Basement
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x98c1080" />
+    </children>
+  </item>
+  <item nodeId="node-0x98c1080">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Living room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x98ca270" />
+    </children>
+  </item>
+  <item nodeId="node-0x98ca270">
+    <command xml:space="preserve">e</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+  </item>
+</Skein>
