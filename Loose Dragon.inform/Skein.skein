@@ -1,27 +1,59 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x98dd3b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x4e60a0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x98bee80" />
-  <item nodeId="node-0x98dd3b0">
+  <activeNode nodeId="node-0x4e60a0" />
+  <item nodeId="node-0x4e60a0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 Loose Dragon
 An Interactive Fiction by EJ Talavera
-Release 1 / Serial number 140929 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141001 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Living room
+You can see Stuffed Toy, Picture and TV here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="13">NO</temporary>
+    <temporary score="4">NO</temporary>
     <children>
-      <child nodeId="node-0x98b6720" />
+      <child nodeId="node-0x4e6200" />
+      <child nodeId="node-0x4e60f0" />
     </children>
   </item>
-  <item nodeId="node-0x98b6720">
+  <item nodeId="node-0x4e60f0">
+    <command xml:space="preserve">take TV</command>
+    <result xml:space="preserve">I dont think your strong enough for that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x4e6140" />
+    </children>
+  </item>
+  <item nodeId="node-0x4e6140">
+    <command xml:space="preserve">x toy</command>
+    <result xml:space="preserve">A stuffed animal toy of a goat that Draco ripped apart this morning.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x4e6190" />
+    </children>
+  </item>
+  <item nodeId="node-0x4e6190">
+    <command xml:space="preserve">x picture</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+  </item>
+  <item nodeId="node-0x4e6200">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Kitchen
@@ -31,10 +63,10 @@ Kitchen
     <changed>NO</changed>
     <temporary score="13">YES</temporary>
     <children>
-      <child nodeId="node-0x94aa760" />
+      <child nodeId="node-0x4e6270" />
     </children>
   </item>
-  <item nodeId="node-0x94aa760">
+  <item nodeId="node-0x4e6270">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Living room
@@ -44,10 +76,10 @@ Living room
     <changed>NO</changed>
     <temporary score="13">YES</temporary>
     <children>
-      <child nodeId="node-0x98c2de0" />
+      <child nodeId="node-0x4e62e0" />
     </children>
   </item>
-  <item nodeId="node-0x98c2de0">
+  <item nodeId="node-0x4e62e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Basement
@@ -57,10 +89,10 @@ Basement
     <changed>NO</changed>
     <temporary score="13">YES</temporary>
     <children>
-      <child nodeId="node-0x98c1080" />
+      <child nodeId="node-0x4f1b50" />
     </children>
   </item>
-  <item nodeId="node-0x98c1080">
+  <item nodeId="node-0x4f1b50">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Living room
@@ -70,10 +102,10 @@ Living room
     <changed>NO</changed>
     <temporary score="13">YES</temporary>
     <children>
-      <child nodeId="node-0x98ca270" />
+      <child nodeId="node-0x4f1ba0" />
     </children>
   </item>
-  <item nodeId="node-0x98ca270">
+  <item nodeId="node-0x4f1ba0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Training Room
@@ -83,10 +115,10 @@ Training Room
     <changed>NO</changed>
     <temporary score="13">YES</temporary>
     <children>
-      <child nodeId="node-0x9841c50" />
+      <child nodeId="node-0x4f1bf0" />
     </children>
   </item>
-  <item nodeId="node-0x9841c50">
+  <item nodeId="node-0x4f1bf0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bedroom
@@ -96,10 +128,10 @@ Bedroom
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
     <children>
-      <child nodeId="node-0x98bee80" />
+      <child nodeId="node-0x4f1c60" />
     </children>
   </item>
-  <item nodeId="node-0x98bee80">
+  <item nodeId="node-0x4f1c60">
     <command xml:space="preserve">s</command>
     <played>YES</played>
     <changed>YES</changed>
