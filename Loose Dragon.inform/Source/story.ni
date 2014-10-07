@@ -3,7 +3,7 @@
 The description of the player is "Your are the son of a wealthy family, who makes money by breeding dragons."
 
 When play begins:
-	say "While you are walking around the house you notice that you can't seem to find your pet dragon Draco. You know that if he gets out, he will go eat all the sheep in the land. You better find him quick!"
+	say "While you are walking around the house you notice that you can't seem to find your pet dragon Draco. You need to go find the Dragon gloves and his cage in order to catch him. If he gets out, he will go eat all the sheep in the land. You better find him quick!"
 
 Living room is a room. The description is "The main part of this house. This is where everyone like to hangout. There is a 75 inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east."
 
@@ -27,7 +27,7 @@ Dining table is a thing in the kitchen. The description is "A table made out of 
 Instead of taking Dining table:
 say "Let's be honest you can't carry that."
 
-The pair of Dragon gloves is in the Kitchen. The pair of Dragon gloves is wearable. The description is "A pair of Dragon gloves that are made out of sturdy, thick, fireproof material. It looks like if you wore them they would protect your hands from all sorts of things. Like Dragons."
+The pair of Dragon gloves is a thing. The pair of Dragon gloves is wearable. The description is "A pair of Dragon gloves that are made out of sturdy, thick, fireproof material. It looks like if you wore them they would protect your hands from all sorts of things. Like Dragons."
 
 Chair is a thing in the Kitchen. The description is "A chair made out of a combination of leather and cotton. Although it seems to be missing a leg. I wonder who could've eaten that."
 
@@ -37,7 +37,7 @@ say "Do you really want to carry that around with you?"
 Food bowl is a thing in the Kitchen. The description is "A food bowl for Draco. He doesn't like eating alone so he brings it into the kitchen to eat with you."
 North of Living room is the kitchen.
 
-Basement is a room. The description is "A room that your store all the stuff  that Draco has ripped apart, chewed or burnt. Theres the first beanbag that he first ripped apart. Also his cage that you brought him home in. North is the Living room"
+Basement is a room. The description is "A room that your store all the stuff  that Draco has ripped apart, chewed or burnt. Theres the first beanbag that he first ripped apart. Also his cage that you brought him home in. North is the Living room."
 
 Beanbag is a thing in the basement. The description is "His first beanbag that you bought for him. It was supposed to be a bed for him but it ended up being his first chew toy"
 
@@ -47,7 +47,21 @@ say "I don't think you want to do that, it's about to fall apart."
 Cage is container in the basement. The description is " A cage that you use to hold Draco if he's ever being bad or when you want to take him on vacation. The cage is made out of platnium becuase it's always the best for your dragon."
 South of Living room is the basement.
 
-Training Room is a room. The description is "A room where you made specifically to train Draco.  Theres ropes hanging from the cieling to help pratice his flying.  Four archery targets to helps him control where he shoots his fireballs. Also training dummies for him to fight."
+Training Room is a room. The description is "A room where you made specifically to train Draco.  Theres ropes hanging from the cieling to help pratice his flying.  Four archery targets to helps him control where he shoots his fireballs. Also training dummies for him to fight. North is Bedroom, and west is the Living room."
+
+In Training room is a male person called Alfred. The description of Alfred is "Your personal butler who has been with you for 15 years. He can assis you with anything."
+
+Instead of asking the Alfred about "Draco":
+say "No sir, I haven't seen Draco around here recently. He's probaly wondering around. I think I closed all the windows. Better find him quick."
+
+Instead of asking the Alfred about "Dragon Gloves":
+say "Yes I might know where those gloves are, but I think I need a little cash to jog my memory."
+
+Instead of giving Money to Alfred:
+	say "Oh yes the gloves are in my back pocket. Hear you go.";
+	remove money from play;
+	move pair of Dragon Gloves to player.
+
 
 Ropes is scenery in the Training room. The description is "Ropes that are at least one foot thick. From constant training some of the ropes are scratched trough from the sharpness of Draco's wings."
 
@@ -63,16 +77,10 @@ if Draco is visible, say "Draco the dragon leaves.";
 move Draco to next space;
 if Draco is visible, say "Draco the dragon is here.";
 end if.
-An every turn rule:
-	if player is carrying Draco:
-		say "Draco scratches and bites. It is hard to carry him.";
-		if a random chance of 4 in 5 succeeds:
-			say "With no effort at all, Draco escapes from your grasp, he makes a snarl at you as he departs.";
-			move Draco to the Training room.
 
 East of Living room is the Training room.
 
-Bedroom is a room. The description is "The place where you and Draco sleep. Sometimes you have to sleep on the floor becuase he pushes you off the bed to have the whole bed to himself."
+Bedroom is a room. The description is "The place where you and Draco sleep. Sometimes you have to sleep on the floor becuase he pushes you off the bed to have the whole bed to himself. South is the Training room."
 
 Pillow is a thing in the bedroom. The description is "A pillow that Draco accidently tor in half when he was dreaming."
 
@@ -80,6 +88,10 @@ Instead of taking pillow:
 	say "What do you need a pillow for?"
 	
 Bed is scenery in the bedroom. The description is "A King size bed made of pure Egyptian cotton."
+
+Wood drawer is a closed openable container in the bedroom. The description is "A drawer to store things."
+
+Money is a thing inside the wood drawer. The description is "Some cash that your parents gave you in case you ever needed it."
 
 Sleep clothes is a thing in the bedroom. The description is "Your clothes that you waer to sleep. Although there are a couple holes in the pants, meaning that Draco probablly did that."
 
@@ -90,5 +102,4 @@ Instead of taking Draco when the player is not wearing the pair of Dragon Gloves
 
 An every turn rule:
 	if Draco is in the cage:
-		say "You win!";
-		end the story finally.
+		End the story finally saying "You caught Draco before he escaped. Congratulations!!!!!"
