@@ -1,11 +1,13 @@
 "Loose Dragon" by EJ Talavera
 
+Release along with cover art ("Dragon.")
+
 The description of the player is "Your are the son of a wealthy family, who makes money by breeding dragons."
 
 When play begins:
 	say "While you are walking around the house you notice that you can't seem to find your pet dragon Draco. You need to go find the Dragon gloves and his cage in order to catch him. If he gets out, he will go eat all the sheep in the land. You better find him quick!"
 
-Living room is a room. The description is "The main part of this house. This is where everyone like to hangout. There is a 75 inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east."
+Living room is a room. The description is "The main part of this house. This is where everyone likes to hangout. There is a 75-inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east."
 
 Couch is scenery in the Living room. The description is "A couch that surrounds the TV so you can watch from any view. There are some burnt spots on the couch because over Draco's over excitement."
 
@@ -15,10 +17,10 @@ Picture is a thing in the living room.  The description is "It's a picture of Dr
 
 Chandelier is scenery in the living room. The description is "A glass chandelier that your parents bought from the best craftsman in the land named Edge."
 
-TV is scenery in the living room. The description is "A TV that you and Draco like to watch movies on.  His favorite movie is How To Train Your Dragon.  Everytime he watches that movie he gets exited and shoots a random fireball."
+TV is scenery in the living room. The description is "A TV that you and Draco like to watch movies on.  His favorite movie is How To Train Your Dragon.  Every time he watches that movie he gets exited and shoots a random fireball."
 
 Instead of taking TV:
-say "I dont think your strong enough for that."
+say "I don't think you're strong enough for that."
 
 Kitchen is a room. The description is "A room where you cook up one the most finest dishes in the land. Learning your skills from your mother who is cook for the king. All the appliances in this room are top of the line. Living Room is to the south."
 
@@ -37,28 +39,28 @@ say "Do you really want to carry that around with you?"
 Food bowl is a thing in the Kitchen. The description is "A food bowl for Draco. He doesn't like eating alone so he brings it into the kitchen to eat with you."
 North of Living room is the kitchen.
 
-Basement is a room. The description is "A room that your store all the stuff  that Draco has ripped apart, chewed or burnt. Theres the first beanbag that he first ripped apart. Also his cage that you brought him home in. North is the Living room."
+Basement is a room. The description is "A room that your store all the stuff that Draco has ripped apart, chewed or burnt. There's the first beanbag that he first ripped apart. Also his cage that you brought him home in. North is the Living room."
 
 Beanbag is a thing in the basement. The description is "His first beanbag that you bought for him. It was supposed to be a bed for him but it ended up being his first chew toy"
 
 Instead of taking beanbag:
 say "I don't think you want to do that, it's about to fall apart."
 
-Cage is container in the basement. The description is " A cage that you use to hold Draco if he's ever being bad or when you want to take him on vacation. The cage is made out of platnium becuase it's always the best for your dragon."
+Cage is container in the basement. The description is " A cage that you use to hold Draco if he's ever being bad or when you want to take him on vacation. The cage is made out of platinum because it's always the best for your dragon."
 South of Living room is the basement.
 
-Training Room is a room. The description is "A room where you made specifically to train Draco.  Theres ropes hanging from the cieling to help pratice his flying.  Four archery targets to helps him control where he shoots his fireballs. Also training dummies for him to fight. North is Bedroom, and west is the Living room."
+Training Room is a room. The description is "A room where you made specifically to train Draco.  There are ropes hanging from the ceiling to help practice his flying.  Four archery targets to help him control where he shoots his fireballs. Also training dummies for him to fight. North is Bedroom, and west is the Living room."
 
-In Training room is a male person called Alfred. The description of Alfred is "Your personal butler who has been with you for 15 years. He can assis you with anything."
+In Training room is a male person called Alfred. The description of Alfred is "Your personal butler who has been with you for 15 years. He can assist you with anything."
 
 Instead of asking the Alfred about "Draco":
-say "No sir, I haven't seen Draco around here recently. He's probaly wondering around. I think I closed all the windows. Better find him quick."
+say "No sir, I haven't seen Draco around here recently. He's probably wondering around. I think I closed all the windows. Better find him quick."
 
 Instead of asking the Alfred about "Dragon Gloves":
 say "Yes I might know where those gloves are, but I think I need a little cash to jog my memory."
 
 Instead of giving Money to Alfred:
-	say "Oh yes the gloves are in my back pocket. Hear you go.";
+	say "Oh yes the gloves are in my back pocket. Here you go.";
 	remove money from play;
 	move pair of Dragon Gloves to player.
 
@@ -67,7 +69,7 @@ Ropes is scenery in the Training room. The description is "Ropes that are at lea
 
 Archery targets is scenery in the Training room. The description is "Archery targets given to you by the best archers in the land. One of Draco's favorite training obstacles."
 
-Dummies are scenery in the Training room. The description is "Dummies that knights train on, bfeore they go into battle. Each dummie has thier arm ripped off because the arm is Draco's favorite part or the human body."
+Dummies are scenery in the Training room. The description is "Dummies that knights train on, before they go into battle. Each dummie has their arm ripped off because the arm is Draco's favorite part or the human body."
 
 Draco is in the training room. Draco is portable. The description is "Draco is you pet dragon that you've had for four years. You trained him to be very fast and agile. He's a blue and yellow dragon."
 
@@ -80,7 +82,7 @@ end if.
 
 East of Living room is the Training room.
 
-Bedroom is a room. The description is "The place where you and Draco sleep. Sometimes you have to sleep on the floor becuase he pushes you off the bed to have the whole bed to himself. South is the Training room."
+Bedroom is a room. The description is "The place where you and Draco sleep. Sometimes you have to sleep on the floor because he pushes you off the bed to have the whole bed to himself. South is the Training room."
 
 Pillow is a thing in the bedroom. The description is "A pillow that Draco accidently tor in half when he was dreaming."
 
@@ -93,7 +95,7 @@ Wood drawer is a closed openable container in the bedroom. The description is "A
 
 Money is a thing inside the wood drawer. The description is "Some cash that your parents gave you in case you ever needed it."
 
-Sleep clothes is a thing in the bedroom. The description is "Your clothes that you waer to sleep. Although there are a couple holes in the pants, meaning that Draco probablly did that."
+Sleep clothes is a thing in the bedroom. The description is "Your clothes that you wear to sleep. Although there are a couple holes in the pants, meaning that Draco probably did that."
 
 North of Training room is the Bedroom.
 
@@ -103,3 +105,4 @@ Instead of taking Draco when the player is not wearing the pair of Dragon Gloves
 An every turn rule:
 	if Draco is in the cage:
 		End the story finally saying "You caught Draco before he escaped. Congratulations!!!!!"
+

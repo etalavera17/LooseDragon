@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x7077e70" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1b43c0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x7077e70" />
-  <item nodeId="node-0x7077e70">
+  <activeNode nodeId="node-0x687b980" />
+  <item nodeId="node-0x1b43c0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -11,30 +11,30 @@ While you are walking around the house you notice that you can&apos;t seem to fi
 
 Loose Dragon
 An Interactive Fiction by EJ Talavera
-Release 1 / Serial number 141005 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141007 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Living room
-The main part of this house. This is where everyone like to hangout. There is a 75 inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east.
+The main part of this house. This is where everyone likes to hangout. There is a 75-inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east.
 
 You can see Stuffed Toy and Picture here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="96">NO</temporary>
+    <temporary score="24">NO</temporary>
     <children>
-      <child nodeId="node-0x249d570" />
-      <child nodeId="node-0x249d030" />
-      <child nodeId="node-0x7077ec0" />
-      <child nodeId="node-0x249c2a0" />
-      <child nodeId="node-0x249bba0" />
-      <child nodeId="node-0x24992f0" />
-      <child nodeId="node-0x2499280" />
-      <child nodeId="node-0x249c3f0" />
-      <child nodeId="node-0x2498940" />
+      <child nodeId="node-0x6828760" />
+      <child nodeId="node-0x6828fe0" />
+      <child nodeId="node-0x1b2400" />
+      <child nodeId="node-0x682adc0" />
+      <child nodeId="node-0x682b500" />
+      <child nodeId="node-0x682e5e0" />
+      <child nodeId="node-0x682af10" />
+      <child nodeId="node-0x682e210" />
+      <child nodeId="node-0x682df30" />
     </children>
   </item>
-  <item nodeId="node-0x2498940">
+  <item nodeId="node-0x682df30">
     <command xml:space="preserve">x chandelier</command>
     <result xml:space="preserve">A glass chandelier that your parents bought from the best craftsman in the land named Edge.
 
@@ -43,10 +43,10 @@ You can see Stuffed Toy and Picture here.
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
     <children>
-      <child nodeId="node-0x24989b0" />
+      <child nodeId="node-0x682dfa0" />
     </children>
   </item>
-  <item nodeId="node-0x24989b0">
+  <item nodeId="node-0x682dfa0">
     <command xml:space="preserve">take chandelier</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -55,10 +55,10 @@ You can see Stuffed Toy and Picture here.
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
     <children>
-      <child nodeId="node-0x24991a0" />
+      <child nodeId="node-0x682e010" />
     </children>
   </item>
-  <item nodeId="node-0x24991a0">
+  <item nodeId="node-0x682e010">
     <command xml:space="preserve">x toy</command>
     <result xml:space="preserve">A stuffed animal toy of a goat that Draco ripped apart this morning.
 
@@ -67,181 +67,270 @@ You can see Stuffed Toy and Picture here.
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
     <children>
-      <child nodeId="node-0x2499210" />
+      <child nodeId="node-0x682e080" />
     </children>
   </item>
-  <item nodeId="node-0x2499210">
+  <item nodeId="node-0x682e080">
     <command xml:space="preserve">x picture </command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
   </item>
-  <item nodeId="node-0x249c3f0">
+  <item nodeId="node-0x682e210">
+    <command xml:space="preserve">x couch</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+  </item>
+  <item nodeId="node-0x682af10">
+    <command xml:space="preserve">x toy</command>
+    <result xml:space="preserve">A stuffed animal toy of a goat that Draco ripped apart this morning.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x6828f00" />
+      <child nodeId="node-0x6828b80" />
+      <child nodeId="node-0x682a1b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x682a1b0">
+    <command xml:space="preserve">x piture</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x682a220" />
+    </children>
+  </item>
+  <item nodeId="node-0x682a220">
+    <command xml:space="preserve">x picture</command>
+    <result xml:space="preserve">It&apos;s a picture of Draco when he was little.  You and him where in the training room learning how to shoot fireballs at the archery targets.
+
+Draco the dragon is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x682a290" />
+    </children>
+  </item>
+  <item nodeId="node-0x682a290">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Kitchen
+A room where you cook up one the most finest dishes in the land. Learning your skills from your mother who is cook for the king. All the appliances in this room are top of the line. Living Room is to the south.
+
+You can see Dining table, Chair and Food bowl here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x682a300" />
+    </children>
+  </item>
+  <item nodeId="node-0x682a300">
+    <command xml:space="preserve">x Dining Table</command>
+    <result xml:space="preserve">A table made out of pure gold. You couldn&apos;t ask for a better thing to eat on.
+
+Draco the dragon is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x682a370" />
+    </children>
+  </item>
+  <item nodeId="node-0x682a370">
+    <command xml:space="preserve">Take table</command>
+    <result xml:space="preserve">Let&apos;s be honest you can&apos;t carry that.
+
+Draco the dragon leaves.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x682a3e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x682a3e0">
+    <command xml:space="preserve">take chair</command>
+    <result xml:space="preserve">Do you really want to carry that around with you?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x682a450" />
+    </children>
+  </item>
+  <item nodeId="node-0x682a450">
+    <command xml:space="preserve">take bowl</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x682a4c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x682a4c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Living room
+The main part of this house. This is where everyone like to hangout. There is a 75 inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east.
+
+You can see Stuffed Toy and Picture here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x682a530" />
+    </children>
+  </item>
+  <item nodeId="node-0x682a530">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Basement
-A room that your store all the stuff  that Draco has ripped apart, chewed or burnt. Theres the first beanbag that he first ripped apart. Also his cage that you brought him home in. North is the Living room.
+A room that your store all the stuff  that Draco has ripped apart, chewed or burnt. Theres the first beanbag that he first ripped apart. Also his cage that you brought him home in. North is the Living room
 
 You can see Beanbag and Cage (empty) here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="96">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x249c460" />
+      <child nodeId="node-0x682a5a0" />
     </children>
   </item>
-  <item nodeId="node-0x249c460">
-    <command xml:space="preserve">close cage</command>
-    <result xml:space="preserve">It isn&apos;t something you can close.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="96">YES</temporary>
-    <children>
-      <child nodeId="node-0x249c4d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x249c4d0">
-    <command xml:space="preserve">open cage</command>
-    <result xml:space="preserve">It isn&apos;t something you can open.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="96">YES</temporary>
-    <children>
-      <child nodeId="node-0x249c540" />
-    </children>
-  </item>
-  <item nodeId="node-0x249c540">
+  <item nodeId="node-0x682a5a0">
     <command xml:space="preserve">take cage</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="96">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x249c5b0" />
+      <child nodeId="node-0x682a610" />
     </children>
   </item>
-  <item nodeId="node-0x249c5b0">
-    <command xml:space="preserve">x cage</command>
-    <result xml:space="preserve"> A cage that you use to hold Draco if he&apos;s ever being bad or when you want to take him on vacation. The cage is made out of platnium becuase it&apos;s always the best for your dragon.
+  <item nodeId="node-0x682a610">
+    <command xml:space="preserve">put bowl in cage</command>
+    <result xml:space="preserve">You put Food bowl into Cage.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x249c620" />
+      <child nodeId="node-0x682a680" />
     </children>
   </item>
-  <item nodeId="node-0x249c620">
-    <command xml:space="preserve">money</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="96">YES</temporary>
-    <children>
-      <child nodeId="node-0x249c690" />
-    </children>
-  </item>
-  <item nodeId="node-0x249c690">
-    <command xml:space="preserve">x money</command>
+  <item nodeId="node-0x682a680">
+    <command xml:space="preserve">put draco in cage</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x249c700" />
+      <child nodeId="node-0x68298f0" />
     </children>
   </item>
-  <item nodeId="node-0x249c700">
+  <item nodeId="node-0x68298f0">
+    <command xml:space="preserve">take bowl out of cage</command>
+    <result xml:space="preserve">I only understood you as far as wanting to take Food bowl.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x6829960" />
+    </children>
+  </item>
+  <item nodeId="node-0x6829960">
+    <command xml:space="preserve">take bowl</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x68299d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68299d0">
+    <command xml:space="preserve">drop bowl</command>
+    <result xml:space="preserve">Dropped.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x6829a40" />
+    </children>
+  </item>
+  <item nodeId="node-0x6829a40">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Living room
 The main part of this house. This is where everyone like to hangout. There is a 75 inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east.
 
-You can see Draco, Stuffed Toy and Picture here.
-
-Draco the dragon leaves.
-Draco the dragon is here.
+You can see Stuffed Toy and Picture here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x249c770" />
+      <child nodeId="node-0x6829ab0" />
     </children>
   </item>
-  <item nodeId="node-0x249c770">
+  <item nodeId="node-0x6829ab0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Training Room
-A room where you made specifically to train Draco.  Theres ropes hanging from the cieling to help pratice his flying.  Four archery targets to helps him control where he shoots his fireballs. Also training dummies for him to fight. North is Bedroom, and west is the Living room.
+A room where you made specifically to train Draco.  Theres ropes hanging from the cieling to help pratice his flying.  Four archery targets to helps him control where he shoots his fireballs. Also training dummies for him to fight.
 
 You can see Alfred here.
 
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="96">YES</temporary>
-    <children>
-      <child nodeId="node-0x249c7e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x249c7e0">
-    <command xml:space="preserve">ask alfred about the gloves</command>
-    <result xml:space="preserve">There is no reply.
+Draco the dragon is here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x249c850" />
+      <child nodeId="node-0x6829b20" />
     </children>
   </item>
-  <item nodeId="node-0x249c850">
-    <command xml:space="preserve">ask alfred about gloves</command>
-    <result xml:space="preserve">There is no reply.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="96">YES</temporary>
-    <children>
-      <child nodeId="node-0x249c8c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x249c8c0">
-    <command xml:space="preserve">ask alfred about dragon gloves</command>
+  <item nodeId="node-0x6829b20">
+    <command xml:space="preserve">ask alfred about Dragon gloves</command>
     <result xml:space="preserve">Yes I might know where those gloves are, but I think I need a little cash to jog my memory.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="96">YES</temporary>
-    <children>
-      <child nodeId="node-0x249c930" />
-    </children>
-  </item>
-  <item nodeId="node-0x249c930">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Bedroom
-The place where you and Draco sleep. Sometimes you have to sleep on the floor becuase he pushes you off the bed to have the whole bed to himself. South is the Training room.
-
-You can see Draco, Pillow, Wood drawer (closed) and Sleep clothes here.
 
 Draco the dragon leaves.
 Draco the dragon is here.
@@ -249,78 +338,118 @@ Draco the dragon is here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x249c9a0" />
+      <child nodeId="node-0x6829b90" />
     </children>
   </item>
-  <item nodeId="node-0x249c9a0">
-    <command xml:space="preserve">open drawer</command>
-    <result xml:space="preserve">You open Wood drawer, revealing Money.
+  <item nodeId="node-0x6829b90">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Bedroom
+The place where you and Draco sleep. Sometimes you have to sleep on the floor becuase he pushes you off the bed to have the whole bed to himself.
 
-Draco the dragon leaves.
+You can see Pillow, Wood drawer (closed) and Sleep clothes here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x6829c00" />
+    </children>
+  </item>
+  <item nodeId="node-0x6829c00">
+    <command xml:space="preserve">x drawer</command>
+    <result xml:space="preserve">A drawer to store things.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x249ca10" />
+      <child nodeId="node-0x6829c70" />
     </children>
   </item>
-  <item nodeId="node-0x249ca10">
-    <command xml:space="preserve">take monet</command>
+  <item nodeId="node-0x6829c70">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open Wood drawer, revealing Money.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x6829ce0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6829ce0">
+    <command xml:space="preserve">take onety</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x249ca80" />
+      <child nodeId="node-0x6829d50" />
     </children>
   </item>
-  <item nodeId="node-0x249ca80">
+  <item nodeId="node-0x6829d50">
     <command xml:space="preserve">take money</command>
     <result xml:space="preserve">Taken.
+
+Draco the dragon is here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x249caf0" />
+      <child nodeId="node-0x6829dc0" />
     </children>
   </item>
-  <item nodeId="node-0x249caf0">
+  <item nodeId="node-0x6829dc0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Training Room
-A room where you made specifically to train Draco.  Theres ropes hanging from the cieling to help pratice his flying.  Four archery targets to helps him control where he shoots his fireballs. Also training dummies for him to fight. North is Bedroom, and west is the Living room.
+A room where you made specifically to train Draco.  Theres ropes hanging from the cieling to help pratice his flying.  Four archery targets to helps him control where he shoots his fireballs. Also training dummies for him to fight.
 
 You can see Alfred here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x249cb60" />
+      <child nodeId="node-0x6829e30" />
     </children>
   </item>
-  <item nodeId="node-0x249cb60">
+  <item nodeId="node-0x6829e30">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x6829ea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6829ea0">
     <command xml:space="preserve">give money to alfred</command>
     <result xml:space="preserve">Oh yes the gloves are in my back pocket. Hear you go.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x249cbd0" />
+      <child nodeId="node-0x6829f10" />
     </children>
   </item>
-  <item nodeId="node-0x249cbd0">
+  <item nodeId="node-0x6829f10">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a pair of Dragon gloves
@@ -329,25 +458,107 @@ You can see Alfred here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x249cc40" />
+      <child nodeId="node-0x6829f80" />
     </children>
   </item>
-  <item nodeId="node-0x249cc40">
+  <item nodeId="node-0x6829f80">
+    <command xml:space="preserve">waer gloves</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x68292a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68292a0">
     <command xml:space="preserve">wear gloves</command>
     <result xml:space="preserve">You put on the pair of Dragon gloves.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x249ccb0" />
+      <child nodeId="node-0x6829310" />
     </children>
   </item>
-  <item nodeId="node-0x249ccb0">
+  <item nodeId="node-0x6829310">
     <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Living room
+The main part of this house. This is where everyone like to hangout. There is a 75 inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east.
+
+You can see Draco, Stuffed Toy and Picture here.
+
+Draco the dragon leaves.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x6829380" />
+    </children>
+  </item>
+  <item nodeId="node-0x6829380">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Kitchen
+A room where you cook up one the most finest dishes in the land. Learning your skills from your mother who is cook for the king. All the appliances in this room are top of the line. Living Room is to the south.
+
+You can see Draco, Dining table and Chair here.
+
+Draco the dragon leaves.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x68293f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68293f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Living room
+The main part of this house. This is where everyone like to hangout. There is a 75 inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east.
+
+You can see Draco, Stuffed Toy and Picture here.
+
+Draco the dragon leaves.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x6829460" />
+    </children>
+  </item>
+  <item nodeId="node-0x6829460">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Basement
+A room that your store all the stuff  that Draco has ripped apart, chewed or burnt. Theres the first beanbag that he first ripped apart. Also his cage that you brought him home in. North is the Living room
+
+You can see Food bowl and Beanbag here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x68294d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68294d0">
+    <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Living room
 The main part of this house. This is where everyone like to hangout. There is a 75 inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east.
@@ -357,30 +568,30 @@ You can see Stuffed Toy and Picture here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x249cd20" />
+      <child nodeId="node-0x6829540" />
     </children>
   </item>
-  <item nodeId="node-0x249cd20">
+  <item nodeId="node-0x6829540">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Kitchen
 A room where you cook up one the most finest dishes in the land. Learning your skills from your mother who is cook for the king. All the appliances in this room are top of the line. Living Room is to the south.
 
-You can see Draco, Dining table, Chair and Food bowl here.
+You can see Draco, Dining table and Chair here.
 
 Draco the dragon leaves.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x249cd90" />
+      <child nodeId="node-0x68295b0" />
     </children>
   </item>
-  <item nodeId="node-0x249cd90">
+  <item nodeId="node-0x68295b0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Living room
@@ -388,41 +599,123 @@ The main part of this house. This is where everyone like to hangout. There is a 
 
 You can see Stuffed Toy and Picture here.
 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x6829620" />
+    </children>
+  </item>
+  <item nodeId="node-0x6829620">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Kitchen
+A room where you cook up one the most finest dishes in the land. Learning your skills from your mother who is cook for the king. All the appliances in this room are top of the line. Living Room is to the south.
+
+You can see Dining table and Chair here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x6829690" />
+    </children>
+  </item>
+  <item nodeId="node-0x6829690">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x6829700" />
+    </children>
+  </item>
+  <item nodeId="node-0x6829700">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Living room
+The main part of this house. This is where everyone like to hangout. There is a 75 inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east.
+
+You can see Stuffed Toy and Picture here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x6829770" />
+    </children>
+  </item>
+  <item nodeId="node-0x6829770">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Training Room
+A room where you made specifically to train Draco.  Theres ropes hanging from the cieling to help pratice his flying.  Four archery targets to helps him control where he shoots his fireballs. Also training dummies for him to fight.
+
+You can see Draco and Alfred here.
+
+Draco the dragon leaves.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x68289c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68289c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Bedroom
+The place where you and Draco sleep. Sometimes you have to sleep on the floor becuase he pushes you off the bed to have the whole bed to himself.
+
+You can see Pillow, Wood drawer (empty) and Sleep clothes here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+    <children>
+      <child nodeId="node-0x6828a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x6828a30">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Training Room
+A room where you made specifically to train Draco.  Theres ropes hanging from the cieling to help pratice his flying.  Four archery targets to helps him control where he shoots his fireballs. Also training dummies for him to fight.
+
+You can see Alfred here.
+
 Draco the dragon is here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x249ce00" />
+      <child nodeId="node-0x6828aa0" />
     </children>
   </item>
-  <item nodeId="node-0x249ce00">
+  <item nodeId="node-0x6828aa0">
     <command xml:space="preserve">take draco</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="67">YES</temporary>
     <children>
-      <child nodeId="node-0x249ce70" />
+      <child nodeId="node-0x6828b10" />
     </children>
   </item>
-  <item nodeId="node-0x249ce70">
-    <command xml:space="preserve">pur draco in cage</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="96">YES</temporary>
-    <children>
-      <child nodeId="node-0x249cee0" />
-    </children>
-  </item>
-  <item nodeId="node-0x249cee0">
+  <item nodeId="node-0x6828b10">
     <command xml:space="preserve">put draco in cage</command>
     <result xml:space="preserve">You put Draco into Cage.
 
@@ -436,57 +729,140 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="66">YES</temporary>
+  </item>
+  <item nodeId="node-0x6828b80">
+    <command xml:space="preserve">take toy</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x249cf50" />
+      <child nodeId="node-0x6828bf0" />
     </children>
   </item>
-  <item nodeId="node-0x249cf50">
-    <command xml:space="preserve">restore</command>
-    <result xml:space="preserve">Restore failed.
+  <item nodeId="node-0x6828bf0">
+    <command xml:space="preserve">x picute</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </result>
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="96">YES</temporary>
+    <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x249cfc0" />
+      <child nodeId="node-0x6828c60" />
     </children>
   </item>
-  <item nodeId="node-0x249cfc0">
-    <command xml:space="preserve">restart</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="95">YES</temporary>
-  </item>
-  <item nodeId="node-0x2499280">
-    <command xml:space="preserve">x couch</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="80">YES</temporary>
-  </item>
-  <item nodeId="node-0x24992f0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Kitchen
-A room where you cook up one the most finest dishes in the land. Learning your skills from your mother who is cook for the king. All the appliances in this room are top of the line. Living Room is to the south.
+  <item nodeId="node-0x6828c60">
+    <command xml:space="preserve">x picture</command>
+    <result xml:space="preserve">It&apos;s a picture of Draco when he was little.  You and him where in the training room learning how to shoot fireballs at the archery targets.
 
-You can see Dining table, a pair of Dragon gloves, Chair and Food bowl here.
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x6828cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6828cd0">
+    <command xml:space="preserve">take picture</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x6828d40" />
+    </children>
+  </item>
+  <item nodeId="node-0x6828d40">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Picture
+  Stuffed Toy
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x6828db0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6828db0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Living room
+The main part of this house. This is where everyone like to hangout. There is a 75 inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x6828e20" />
+    </children>
+  </item>
+  <item nodeId="node-0x6828e20">
+    <command xml:space="preserve">x TV</command>
+    <result xml:space="preserve">A TV that you and Draco like to watch movies on.  His favorite movie is How To Train Your Dragon.  Everytime he watches that movie he gets exited and shoots a random fireball.
 
 Draco the dragon is here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="9">YES</temporary>
+    <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x249b900" />
-      <child nodeId="node-0x249a940" />
-      <child nodeId="node-0x2499360" />
+      <child nodeId="node-0x6828e90" />
     </children>
   </item>
-  <item nodeId="node-0x2499360">
+  <item nodeId="node-0x6828e90">
+    <command xml:space="preserve">Take Draco</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+  <item nodeId="node-0x6828f00">
+    <command xml:space="preserve"> take toy</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x6828f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x6828f70">
+    <command xml:space="preserve">take TV</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+  </item>
+  <item nodeId="node-0x682e5e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Kitchen
+A room where you cook up one the most finest dishes in the land. Learning your skills from your mother who is cook for the king. All the appliances in this room are top of the line. Living Room is to the south.
+
+You can see Dining table, Chair and Food bowl here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x682b260" />
+      <child nodeId="node-0x682c480" />
+      <child nodeId="node-0x682e650" />
+    </children>
+  </item>
+  <item nodeId="node-0x682e650">
     <command xml:space="preserve">x dining table</command>
     <result xml:space="preserve">A table made out of pure gold. You couldn&apos;t ask for a better thing to eat on.
 
@@ -495,10 +871,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x24993d0" />
+      <child nodeId="node-0x682e6c0" />
     </children>
   </item>
-  <item nodeId="node-0x24993d0">
+  <item nodeId="node-0x682e6c0">
     <command xml:space="preserve">x gloves</command>
     <result xml:space="preserve">A pair of Dragon gloves that are made out of sturdy, thick, fireproof material. It looks like if you wore them they would protect your hands from all sorts of things. Like Dragons.
 
@@ -507,10 +883,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499440" />
+      <child nodeId="node-0x682d6b0" />
     </children>
   </item>
-  <item nodeId="node-0x2499440">
+  <item nodeId="node-0x682d6b0">
     <command xml:space="preserve">x food bowl</command>
     <result xml:space="preserve">A food bowl for Draco. He doesn&apos;t like eating alone so he brings it into the kitchen to eat with you.
 
@@ -519,10 +895,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x24994b0" />
+      <child nodeId="node-0x682d720" />
     </children>
   </item>
-  <item nodeId="node-0x24994b0">
+  <item nodeId="node-0x682d720">
     <command xml:space="preserve">x chair</command>
     <result xml:space="preserve">A chair made out of a combination of leather and cotton. Although it seems to be missing a leg. I wonder who could&apos;ve eaten that.
 
@@ -531,10 +907,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499520" />
+      <child nodeId="node-0x682d790" />
     </children>
   </item>
-  <item nodeId="node-0x2499520">
+  <item nodeId="node-0x682d790">
     <command xml:space="preserve">ufuccking dragon</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -543,10 +919,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499590" />
+      <child nodeId="node-0x682d800" />
     </children>
   </item>
-  <item nodeId="node-0x2499590">
+  <item nodeId="node-0x682d800">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -555,10 +931,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499600" />
+      <child nodeId="node-0x682d870" />
     </children>
   </item>
-  <item nodeId="node-0x2499600">
+  <item nodeId="node-0x682d870">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -567,10 +943,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499670" />
+      <child nodeId="node-0x682d8e0" />
     </children>
   </item>
-  <item nodeId="node-0x2499670">
+  <item nodeId="node-0x682d8e0">
     <command xml:space="preserve">take gloves</command>
     <result xml:space="preserve">Taken.
 
@@ -579,10 +955,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x24996e0" />
+      <child nodeId="node-0x682d950" />
     </children>
   </item>
-  <item nodeId="node-0x24996e0">
+  <item nodeId="node-0x682d950">
     <command xml:space="preserve">take dining table</command>
     <result xml:space="preserve">Let&apos;s be honest you can&apos;t carry that.
 
@@ -593,10 +969,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499750" />
+      <child nodeId="node-0x682d9c0" />
     </children>
   </item>
-  <item nodeId="node-0x2499750">
+  <item nodeId="node-0x682d9c0">
     <command xml:space="preserve">take draco the dragon</command>
     <result xml:space="preserve">I only understood you as far as wanting to take Draco.
 
@@ -605,10 +981,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x24997c0" />
+      <child nodeId="node-0x682da30" />
     </children>
   </item>
-  <item nodeId="node-0x24997c0">
+  <item nodeId="node-0x682da30">
     <command xml:space="preserve">take draco</command>
     <result xml:space="preserve">You look at his claws and teeth and think otherwise.
 
@@ -620,10 +996,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499830" />
+      <child nodeId="node-0x682daa0" />
     </children>
   </item>
-  <item nodeId="node-0x2499830">
+  <item nodeId="node-0x682daa0">
     <command xml:space="preserve">take chair</command>
     <result xml:space="preserve">Do you really want to carry that around with you?
 
@@ -634,10 +1010,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x24998a0" />
+      <child nodeId="node-0x682db10" />
     </children>
   </item>
-  <item nodeId="node-0x24998a0">
+  <item nodeId="node-0x682db10">
     <command xml:space="preserve">take food bowl</command>
     <result xml:space="preserve">Taken.
 
@@ -646,10 +1022,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499910" />
+      <child nodeId="node-0x682db80" />
     </children>
   </item>
-  <item nodeId="node-0x2499910">
+  <item nodeId="node-0x682db80">
     <command xml:space="preserve">/s</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -658,10 +1034,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499980" />
+      <child nodeId="node-0x682dbf0" />
     </children>
   </item>
-  <item nodeId="node-0x2499980">
+  <item nodeId="node-0x682dbf0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Living room
@@ -674,10 +1050,10 @@ You can see Stuffed Toy and Picture here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x24999f0" />
+      <child nodeId="node-0x682cee0" />
     </children>
   </item>
-  <item nodeId="node-0x24999f0">
+  <item nodeId="node-0x682cee0">
     <command xml:space="preserve">x tv</command>
     <result xml:space="preserve">A TV that you and Draco like to watch movies on.  His favorite movie is How To Train Your Dragon.  Everytime he watches that movie he gets exited and shoots a random fireball.
 
@@ -686,10 +1062,10 @@ You can see Stuffed Toy and Picture here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499a60" />
+      <child nodeId="node-0x682cf30" />
     </children>
   </item>
-  <item nodeId="node-0x2499a60">
+  <item nodeId="node-0x682cf30">
     <command xml:space="preserve">x couch</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -698,10 +1074,10 @@ You can see Stuffed Toy and Picture here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499ad0" />
+      <child nodeId="node-0x682cfa0" />
     </children>
   </item>
-  <item nodeId="node-0x2499ad0">
+  <item nodeId="node-0x682cfa0">
     <command xml:space="preserve">x chandelier</command>
     <result xml:space="preserve">A glass chandelier that your parents bought from the best craftsman in the land named Edge.
 
@@ -712,10 +1088,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499b40" />
+      <child nodeId="node-0x682d590" />
     </children>
   </item>
-  <item nodeId="node-0x2499b40">
+  <item nodeId="node-0x682d590">
     <command xml:space="preserve">put gloves on</command>
     <result xml:space="preserve">You put on the pair of Dragon gloves.
 
@@ -726,10 +1102,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499bb0" />
+      <child nodeId="node-0x682d600" />
     </children>
   </item>
-  <item nodeId="node-0x2499bb0">
+  <item nodeId="node-0x682d600">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Training Room
@@ -740,10 +1116,10 @@ A room where you made specifically to train Draco.  Theres ropes hanging from th
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499c20" />
+      <child nodeId="node-0x682e0f0" />
     </children>
   </item>
-  <item nodeId="node-0x2499c20">
+  <item nodeId="node-0x682e0f0">
     <command xml:space="preserve">x ropes</command>
     <result xml:space="preserve">Ropes that are at least one foot thick. From constant training some of the ropes are scratched trough from the sharpness of Draco&apos;s wings.
 
@@ -752,10 +1128,10 @@ A room where you made specifically to train Draco.  Theres ropes hanging from th
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499c90" />
+      <child nodeId="node-0x682e140" />
     </children>
   </item>
-  <item nodeId="node-0x2499c90">
+  <item nodeId="node-0x682e140">
     <command xml:space="preserve">take tropes</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -764,10 +1140,10 @@ A room where you made specifically to train Draco.  Theres ropes hanging from th
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499d00" />
+      <child nodeId="node-0x682e190" />
     </children>
   </item>
-  <item nodeId="node-0x2499d00">
+  <item nodeId="node-0x682e190">
     <command xml:space="preserve">take ropes</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -776,10 +1152,10 @@ A room where you made specifically to train Draco.  Theres ropes hanging from th
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499d70" />
+      <child nodeId="node-0x682d010" />
     </children>
   </item>
-  <item nodeId="node-0x2499d70">
+  <item nodeId="node-0x682d010">
     <command xml:space="preserve">x archery targets</command>
     <result xml:space="preserve">Archery targets given to you by the best archers in the land. One of Draco&apos;s favorite training obstacles.
 
@@ -788,10 +1164,10 @@ A room where you made specifically to train Draco.  Theres ropes hanging from th
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499de0" />
+      <child nodeId="node-0x682d080" />
     </children>
   </item>
-  <item nodeId="node-0x2499de0">
+  <item nodeId="node-0x682d080">
     <command xml:space="preserve">take archery targets</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -800,10 +1176,10 @@ A room where you made specifically to train Draco.  Theres ropes hanging from th
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499e50" />
+      <child nodeId="node-0x682d0f0" />
     </children>
   </item>
-  <item nodeId="node-0x2499e50">
+  <item nodeId="node-0x682d0f0">
     <command xml:space="preserve">x dummies</command>
     <result xml:space="preserve">Dummies that knights train on, bfeore they go into battle. Each dummie has thier arm ripped off because the arm is Draco&apos;s favorite part or the human body.
 
@@ -812,10 +1188,10 @@ A room where you made specifically to train Draco.  Theres ropes hanging from th
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499ec0" />
+      <child nodeId="node-0x682d160" />
     </children>
   </item>
-  <item nodeId="node-0x2499ec0">
+  <item nodeId="node-0x682d160">
     <command xml:space="preserve">take dummies</command>
     <result xml:space="preserve">That&apos;s hardly portable.
 
@@ -826,10 +1202,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499f30" />
+      <child nodeId="node-0x682d1d0" />
     </children>
   </item>
-  <item nodeId="node-0x2499f30">
+  <item nodeId="node-0x682d1d0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -840,10 +1216,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x2499fa0" />
+      <child nodeId="node-0x682d240" />
     </children>
   </item>
-  <item nodeId="node-0x2499fa0">
+  <item nodeId="node-0x682d240">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Living room
@@ -856,10 +1232,10 @@ You can see Stuffed Toy and Picture here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a010" />
+      <child nodeId="node-0x682d2b0" />
     </children>
   </item>
-  <item nodeId="node-0x249a010">
+  <item nodeId="node-0x682d2b0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Basement
@@ -874,10 +1250,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a080" />
+      <child nodeId="node-0x682d320" />
     </children>
   </item>
-  <item nodeId="node-0x249a080">
+  <item nodeId="node-0x682d320">
     <command xml:space="preserve">take cage</command>
     <result xml:space="preserve">Taken.
 
@@ -888,10 +1264,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a0f0" />
+      <child nodeId="node-0x682d390" />
     </children>
   </item>
-  <item nodeId="node-0x249a0f0">
+  <item nodeId="node-0x682d390">
     <command xml:space="preserve">x beanbag</command>
     <result xml:space="preserve">His first beanbag that you bought for him. It was supposed to be a bed for him but it ended up being his first chew toy
 
@@ -902,10 +1278,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a160" />
+      <child nodeId="node-0x682d400" />
     </children>
   </item>
-  <item nodeId="node-0x249a160">
+  <item nodeId="node-0x682d400">
     <command xml:space="preserve">take draco</command>
     <result xml:space="preserve">Taken.
 
@@ -917,10 +1293,10 @@ With no effort at all, Draco escapes from your grasp, he makes a snarl at you as
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a1d0" />
+      <child nodeId="node-0x682c920" />
     </children>
   </item>
-  <item nodeId="node-0x249a1d0">
+  <item nodeId="node-0x682c920">
     <command xml:space="preserve">fuck you draco stupid cunt</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -929,10 +1305,10 @@ With no effort at all, Draco escapes from your grasp, he makes a snarl at you as
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a240" />
+      <child nodeId="node-0x682c990" />
     </children>
   </item>
-  <item nodeId="node-0x249a240">
+  <item nodeId="node-0x682c990">
     <command xml:space="preserve">il fk u up m8 1v1 ez raid</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -941,10 +1317,10 @@ With no effort at all, Draco escapes from your grasp, he makes a snarl at you as
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a2b0" />
+      <child nodeId="node-0x682ca00" />
     </children>
   </item>
-  <item nodeId="node-0x249a2b0">
+  <item nodeId="node-0x682ca00">
     <command xml:space="preserve">take draco</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -953,10 +1329,10 @@ With no effort at all, Draco escapes from your grasp, he makes a snarl at you as
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a320" />
+      <child nodeId="node-0x682ca70" />
     </children>
   </item>
-  <item nodeId="node-0x249a320">
+  <item nodeId="node-0x682ca70">
     <command xml:space="preserve">take beanbag</command>
     <result xml:space="preserve">I don&apos;t think you want to do that, it&apos;s about to fall apart.
 
@@ -965,10 +1341,10 @@ With no effort at all, Draco escapes from your grasp, he makes a snarl at you as
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a390" />
+      <child nodeId="node-0x682cae0" />
     </children>
   </item>
-  <item nodeId="node-0x249a390">
+  <item nodeId="node-0x682cae0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -977,10 +1353,10 @@ With no effort at all, Draco escapes from your grasp, he makes a snarl at you as
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a400" />
+      <child nodeId="node-0x682cb50" />
     </children>
   </item>
-  <item nodeId="node-0x249a400">
+  <item nodeId="node-0x682cb50">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -989,10 +1365,10 @@ With no effort at all, Draco escapes from your grasp, he makes a snarl at you as
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a470" />
+      <child nodeId="node-0x682cbc0" />
     </children>
   </item>
-  <item nodeId="node-0x249a470">
+  <item nodeId="node-0x682cbc0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1001,10 +1377,10 @@ With no effort at all, Draco escapes from your grasp, he makes a snarl at you as
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a4e0" />
+      <child nodeId="node-0x682cc30" />
     </children>
   </item>
-  <item nodeId="node-0x249a4e0">
+  <item nodeId="node-0x682cc30">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Living room
@@ -1017,10 +1393,10 @@ You can see Stuffed Toy and Picture here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a550" />
+      <child nodeId="node-0x682cca0" />
     </children>
   </item>
-  <item nodeId="node-0x249a550">
+  <item nodeId="node-0x682cca0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Kitchen
@@ -1033,10 +1409,10 @@ You can see Dining table and Chair here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a5c0" />
+      <child nodeId="node-0x682cd10" />
     </children>
   </item>
-  <item nodeId="node-0x249a5c0">
+  <item nodeId="node-0x682cd10">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Living room
@@ -1049,10 +1425,10 @@ You can see Stuffed Toy and Picture here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a630" />
+      <child nodeId="node-0x682cd80" />
     </children>
   </item>
-  <item nodeId="node-0x249a630">
+  <item nodeId="node-0x682cd80">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Training Room
@@ -1063,10 +1439,10 @@ A room where you made specifically to train Draco.  Theres ropes hanging from th
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a6a0" />
+      <child nodeId="node-0x682cdf0" />
     </children>
   </item>
-  <item nodeId="node-0x249a6a0">
+  <item nodeId="node-0x682cdf0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Living room
@@ -1079,10 +1455,10 @@ You can see Stuffed Toy and Picture here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a710" />
+      <child nodeId="node-0x682ce60" />
     </children>
   </item>
-  <item nodeId="node-0x249a710">
+  <item nodeId="node-0x682ce60">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Kitchen
@@ -1095,10 +1471,10 @@ You can see Dining table and Chair here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a780" />
+      <child nodeId="node-0x682c2c0" />
     </children>
   </item>
-  <item nodeId="node-0x249a780">
+  <item nodeId="node-0x682c2c0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1107,10 +1483,10 @@ You can see Dining table and Chair here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a7f0" />
+      <child nodeId="node-0x682c330" />
     </children>
   </item>
-  <item nodeId="node-0x249a7f0">
+  <item nodeId="node-0x682c330">
     <command xml:space="preserve">ew</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1119,10 +1495,10 @@ You can see Dining table and Chair here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a860" />
+      <child nodeId="node-0x682c3a0" />
     </children>
   </item>
-  <item nodeId="node-0x249a860">
+  <item nodeId="node-0x682c3a0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1133,10 +1509,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="80">YES</temporary>
     <children>
-      <child nodeId="node-0x249a8d0" />
+      <child nodeId="node-0x682c410" />
     </children>
   </item>
-  <item nodeId="node-0x249a8d0">
+  <item nodeId="node-0x682c410">
     <command xml:space="preserve">put draco in cage</command>
     <result xml:space="preserve">(first taking Draco)
 You put Draco into Cage.
@@ -1156,7 +1532,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="79">YES</temporary>
   </item>
-  <item nodeId="node-0x249a940">
+  <item nodeId="node-0x682c480">
     <command xml:space="preserve">take gloves</command>
     <result xml:space="preserve">Taken.
 
@@ -1167,12 +1543,12 @@ Draco the dragon leaves.
     <changed>NO</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0x249b350" />
-      <child nodeId="node-0x249b0b0" />
-      <child nodeId="node-0x249a9b0" />
+      <child nodeId="node-0x682b810" />
+      <child nodeId="node-0x682c0b0" />
+      <child nodeId="node-0x682c4f0" />
     </children>
   </item>
-  <item nodeId="node-0x249a9b0">
+  <item nodeId="node-0x682c4f0">
     <command xml:space="preserve">wear gloves</command>
     <result xml:space="preserve">You put on the pair of Dragon gloves.
 
@@ -1183,10 +1559,10 @@ Draco the dragon leaves leaves.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x249aa20" />
+      <child nodeId="node-0x682c560" />
     </children>
   </item>
-  <item nodeId="node-0x249aa20">
+  <item nodeId="node-0x682c560">
     <command xml:space="preserve">take Draco</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1195,10 +1571,10 @@ Draco the dragon leaves leaves.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x249aa90" />
+      <child nodeId="node-0x682c5d0" />
     </children>
   </item>
-  <item nodeId="node-0x249aa90">
+  <item nodeId="node-0x682c5d0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Living room
@@ -1211,10 +1587,10 @@ You can see Stuffed Toy and Picture here.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x249ab00" />
+      <child nodeId="node-0x682c640" />
     </children>
   </item>
-  <item nodeId="node-0x249ab00">
+  <item nodeId="node-0x682c640">
     <command xml:space="preserve">take draco</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1223,10 +1599,10 @@ You can see Stuffed Toy and Picture here.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x249ab70" />
+      <child nodeId="node-0x682c6b0" />
     </children>
   </item>
-  <item nodeId="node-0x249ab70">
+  <item nodeId="node-0x682c6b0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Basement
@@ -1241,10 +1617,10 @@ Draco the dragon leaves leaves.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x249abe0" />
+      <child nodeId="node-0x682c720" />
     </children>
   </item>
-  <item nodeId="node-0x249abe0">
+  <item nodeId="node-0x682c720">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Living room
@@ -1259,10 +1635,10 @@ Draco the dragon leaves leaves.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x249ac50" />
+      <child nodeId="node-0x682c790" />
     </children>
   </item>
-  <item nodeId="node-0x249ac50">
+  <item nodeId="node-0x682c790">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Training Room
@@ -1277,10 +1653,10 @@ Draco the dragon leaves leaves.
     <changed>NO</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x249acc0" />
+      <child nodeId="node-0x682bd00" />
     </children>
   </item>
-  <item nodeId="node-0x249acc0">
+  <item nodeId="node-0x682bd00">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bedroom
@@ -1293,10 +1669,10 @@ You can see Pillow and Sleep clothes here.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x249ad30" />
+      <child nodeId="node-0x682bd50" />
     </children>
   </item>
-  <item nodeId="node-0x249ad30">
+  <item nodeId="node-0x682bd50">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Training Room
@@ -1309,10 +1685,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x249ada0" />
+      <child nodeId="node-0x682bda0" />
     </children>
   </item>
-  <item nodeId="node-0x249ada0">
+  <item nodeId="node-0x682bda0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1323,10 +1699,10 @@ Draco the dragon leaves leaves.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x249ae10" />
+      <child nodeId="node-0x682be10" />
     </children>
   </item>
-  <item nodeId="node-0x249ae10">
+  <item nodeId="node-0x682be10">
     <command xml:space="preserve">take Draco</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1335,10 +1711,10 @@ Draco the dragon leaves leaves.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x249ae80" />
+      <child nodeId="node-0x682be80" />
     </children>
   </item>
-  <item nodeId="node-0x249ae80">
+  <item nodeId="node-0x682be80">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bedroom
@@ -1351,10 +1727,10 @@ You can see Pillow and Sleep clothes here.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x249aef0" />
+      <child nodeId="node-0x682bef0" />
     </children>
   </item>
-  <item nodeId="node-0x249aef0">
+  <item nodeId="node-0x682bef0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Training Room
@@ -1369,10 +1745,10 @@ Draco the dragon leaves leaves.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x249af60" />
+      <child nodeId="node-0x682bf60" />
     </children>
   </item>
-  <item nodeId="node-0x249af60">
+  <item nodeId="node-0x682bf60">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Living room
@@ -1385,10 +1761,10 @@ You can see Stuffed Toy and Picture here.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x249afd0" />
+      <child nodeId="node-0x682bfd0" />
     </children>
   </item>
-  <item nodeId="node-0x249afd0">
+  <item nodeId="node-0x682bfd0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Basement
@@ -1403,16 +1779,16 @@ Draco the dragon leaves leaves.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x249b040" />
+      <child nodeId="node-0x682c040" />
     </children>
   </item>
-  <item nodeId="node-0x249b040">
+  <item nodeId="node-0x682c040">
     <command xml:space="preserve">m</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="43">YES</temporary>
   </item>
-  <item nodeId="node-0x249b0b0">
+  <item nodeId="node-0x682c0b0">
     <command xml:space="preserve">put on gloves</command>
     <result xml:space="preserve">You put on the pair of Dragon gloves.
 
@@ -1421,10 +1797,10 @@ Draco the dragon leaves leaves.
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0x249b120" />
+      <child nodeId="node-0x682c120" />
     </children>
   </item>
-  <item nodeId="node-0x249b120">
+  <item nodeId="node-0x682c120">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Living room
@@ -1439,10 +1815,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0x249b190" />
+      <child nodeId="node-0x682c190" />
     </children>
   </item>
-  <item nodeId="node-0x249b190">
+  <item nodeId="node-0x682c190">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Basement
@@ -1455,10 +1831,10 @@ You can see Beanbag and Cage (empty) here.
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0x249b200" />
+      <child nodeId="node-0x682c200" />
     </children>
   </item>
-  <item nodeId="node-0x249b200">
+  <item nodeId="node-0x682c200">
     <command xml:space="preserve">take cage</command>
     <result xml:space="preserve">Taken.
 
@@ -1469,10 +1845,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0x249b270" />
+      <child nodeId="node-0x682b730" />
     </children>
   </item>
-  <item nodeId="node-0x249b270">
+  <item nodeId="node-0x682b730">
     <command xml:space="preserve">take draco</command>
     <result xml:space="preserve">Taken.
 
@@ -1481,10 +1857,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0x249b2e0" />
+      <child nodeId="node-0x682b7a0" />
     </children>
   </item>
-  <item nodeId="node-0x249b2e0">
+  <item nodeId="node-0x682b7a0">
     <command xml:space="preserve">put draco in cage</command>
     <result xml:space="preserve">You put Draco into Cage.
 
@@ -1500,7 +1876,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="8">YES</temporary>
   </item>
-  <item nodeId="node-0x249b350">
+  <item nodeId="node-0x682b810">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Living room
@@ -1513,10 +1889,10 @@ You can see Stuffed Toy and Picture here.
     <changed>YES</changed>
     <temporary score="21">YES</temporary>
     <children>
-      <child nodeId="node-0x249b3c0" />
+      <child nodeId="node-0x682b880" />
     </children>
   </item>
-  <item nodeId="node-0x249b3c0">
+  <item nodeId="node-0x682b880">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Basement
@@ -1529,10 +1905,10 @@ You can see Beanbag and Cage (empty) here.
     <changed>YES</changed>
     <temporary score="21">YES</temporary>
     <children>
-      <child nodeId="node-0x249b430" />
+      <child nodeId="node-0x682b8f0" />
     </children>
   </item>
-  <item nodeId="node-0x249b430">
+  <item nodeId="node-0x682b8f0">
     <command xml:space="preserve">take cage</command>
     <result xml:space="preserve">Taken.
 
@@ -1541,10 +1917,10 @@ You can see Beanbag and Cage (empty) here.
     <changed>YES</changed>
     <temporary score="21">YES</temporary>
     <children>
-      <child nodeId="node-0x249b4a0" />
+      <child nodeId="node-0x682b960" />
     </children>
   </item>
-  <item nodeId="node-0x249b4a0">
+  <item nodeId="node-0x682b960">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Living room
@@ -1557,10 +1933,10 @@ You can see Stuffed Toy and Picture here.
     <changed>YES</changed>
     <temporary score="21">YES</temporary>
     <children>
-      <child nodeId="node-0x249b510" />
+      <child nodeId="node-0x682b9d0" />
     </children>
   </item>
-  <item nodeId="node-0x249b510">
+  <item nodeId="node-0x682b9d0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Training Room
@@ -1571,10 +1947,10 @@ A room where you made specifically to train Draco.  Theres ropes hanging from th
     <changed>YES</changed>
     <temporary score="21">YES</temporary>
     <children>
-      <child nodeId="node-0x249b580" />
+      <child nodeId="node-0x682ba40" />
     </children>
   </item>
-  <item nodeId="node-0x249b580">
+  <item nodeId="node-0x682ba40">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1585,10 +1961,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="21">YES</temporary>
     <children>
-      <child nodeId="node-0x249b5f0" />
+      <child nodeId="node-0x682bab0" />
     </children>
   </item>
-  <item nodeId="node-0x249b5f0">
+  <item nodeId="node-0x682bab0">
     <command xml:space="preserve">put on gloves</command>
     <result xml:space="preserve">You put on the pair of Dragon gloves.
 
@@ -1599,10 +1975,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="21">YES</temporary>
     <children>
-      <child nodeId="node-0x249b660" />
+      <child nodeId="node-0x682bb20" />
     </children>
   </item>
-  <item nodeId="node-0x249b660">
+  <item nodeId="node-0x682bb20">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bedroom
@@ -1615,10 +1991,10 @@ You can see Pillow and Sleep clothes here.
     <changed>YES</changed>
     <temporary score="21">YES</temporary>
     <children>
-      <child nodeId="node-0x249b6d0" />
+      <child nodeId="node-0x682bb90" />
     </children>
   </item>
-  <item nodeId="node-0x249b6d0">
+  <item nodeId="node-0x682bb90">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Training Room
@@ -1629,10 +2005,10 @@ A room where you made specifically to train Draco.  Theres ropes hanging from th
     <changed>YES</changed>
     <temporary score="21">YES</temporary>
     <children>
-      <child nodeId="node-0x249b740" />
+      <child nodeId="node-0x682bc00" />
     </children>
   </item>
-  <item nodeId="node-0x249b740">
+  <item nodeId="node-0x682bc00">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1641,10 +2017,10 @@ A room where you made specifically to train Draco.  Theres ropes hanging from th
     <changed>YES</changed>
     <temporary score="21">YES</temporary>
     <children>
-      <child nodeId="node-0x249b7b0" />
+      <child nodeId="node-0x682b110" />
     </children>
   </item>
-  <item nodeId="node-0x249b7b0">
+  <item nodeId="node-0x682b110">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Living room
@@ -1657,10 +2033,10 @@ You can see Stuffed Toy and Picture here.
     <changed>YES</changed>
     <temporary score="21">YES</temporary>
     <children>
-      <child nodeId="node-0x249b820" />
+      <child nodeId="node-0x682b180" />
     </children>
   </item>
-  <item nodeId="node-0x249b820">
+  <item nodeId="node-0x682b180">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Kitchen
@@ -1675,10 +2051,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="21">YES</temporary>
     <children>
-      <child nodeId="node-0x249b890" />
+      <child nodeId="node-0x682b1f0" />
     </children>
   </item>
-  <item nodeId="node-0x249b890">
+  <item nodeId="node-0x682b1f0">
     <command xml:space="preserve">put Draco in cage</command>
     <result xml:space="preserve">(first taking Draco)
 You put Draco into Cage.
@@ -1698,33 +2074,331 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="20">YES</temporary>
   </item>
-  <item nodeId="node-0x249b900">
+  <item nodeId="node-0x682b260">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Living room
+The main part of this house. This is where everyone likes to hangout. There is a 75-inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east.
+
+You can see Draco, Stuffed Toy and Picture here.
+
+Draco the dragon leaves.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="13">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x249b970" />
+      <child nodeId="node-0x682b2d0" />
     </children>
   </item>
-  <item nodeId="node-0x249b970">
+  <item nodeId="node-0x682b2d0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Basement
+A room that your store all the stuff that Draco has ripped apart, chewed or burnt. There&apos;s the first beanbag that he first ripped apart. Also his cage that you brought him home in. North is the Living room.
+
+You can see Beanbag and Cage (empty) here.
+
+Draco the dragon is here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="13">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x249b9e0" />
+      <child nodeId="node-0x682b340" />
+      <child nodeId="node-0x6886df0" />
     </children>
   </item>
-  <item nodeId="node-0x249b9e0">
+  <item nodeId="node-0x6886df0">
+    <command xml:space="preserve">take cage</command>
+    <result xml:space="preserve">Taken.
+
+Draco the dragon leaves.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cc6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cc6b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Living room
+The main part of this house. This is where everyone likes to hangout. There is a 75-inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east.
+
+You can see Stuffed Toy and Picture here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x6910710" />
+    </children>
+  </item>
+  <item nodeId="node-0x6910710">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Training Room
+A room where you made specifically to train Draco.  There are ropes hanging from the ceiling to help practice his flying.  Four archery targets to help him control where he shoots his fireballs. Also training dummies for him to fight. North is Bedroom, and west is the Living room.
+
+You can see Alfred here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x68631a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68631a0">
+    <command xml:space="preserve">ask alfred about Dragon gloves</command>
+    <result xml:space="preserve">Yes I might know where those gloves are, but I think I need a little cash to jog my memory.
+
+Draco the dragon is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x69e5e10" />
+    </children>
+  </item>
+  <item nodeId="node-0x69e5e10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Bedroom
+The place where you and Draco sleep. Sometimes you have to sleep on the floor because he pushes you off the bed to have the whole bed to himself. South is the Training room.
+
+You can see Pillow, Wood drawer (closed) and Sleep clothes here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x6887440" />
+    </children>
+  </item>
+  <item nodeId="node-0x6887440">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open Wood drawer, revealing Money.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x689d630" />
+    </children>
+  </item>
+  <item nodeId="node-0x689d630">
+    <command xml:space="preserve">take money</command>
+    <result xml:space="preserve">Taken.
+
+Draco the dragon is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x4f4340" />
+    </children>
+  </item>
+  <item nodeId="node-0x4f4340">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Training Room
+A room where you made specifically to train Draco.  There are ropes hanging from the ceiling to help practice his flying.  Four archery targets to help him control where he shoots his fireballs. Also training dummies for him to fight. North is Bedroom, and west is the Living room.
+
+You can see Alfred here.
+
+Draco the dragon is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x688feb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x688feb0">
+    <command xml:space="preserve">give money to alfred</command>
+    <result xml:space="preserve">Oh yes the gloves are in my back pocket. Here you go.
+
+Draco the dragon leaves.
+Draco the dragon is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x7fd0ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7fd0ad0">
+    <command xml:space="preserve">put on dragon gloves</command>
+    <result xml:space="preserve">You put on the pair of Dragon gloves.
+
+Draco the dragon leaves.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x68cf300" />
+    </children>
+  </item>
+  <item nodeId="node-0x68cf300">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Bedroom
+The place where you and Draco sleep. Sometimes you have to sleep on the floor because he pushes you off the bed to have the whole bed to himself. South is the Training room.
+
+You can see Draco, Pillow, Wood drawer (empty) and Sleep clothes here.
+
+Draco the dragon leaves.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x2005c80" />
+    </children>
+  </item>
+  <item nodeId="node-0x2005c80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Training Room
+A room where you made specifically to train Draco.  There are ropes hanging from the ceiling to help practice his flying.  Four archery targets to help him control where he shoots his fireballs. Also training dummies for him to fight. North is Bedroom, and west is the Living room.
+
+You can see Alfred here.
+
+Draco the dragon is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x7fce040" />
+    </children>
+  </item>
+  <item nodeId="node-0x7fce040">
+    <command xml:space="preserve">pick up dragon</command>
+    <result xml:space="preserve">You already have that.
+
+Draco the dragon leaves.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9cab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9cab0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Bedroom
+The place where you and Draco sleep. Sometimes you have to sleep on the floor because he pushes you off the bed to have the whole bed to himself. South is the Training room.
+
+You can see Pillow, Wood drawer (empty) and Sleep clothes here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x7fa14a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7fa14a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Training Room
+A room where you made specifically to train Draco.  There are ropes hanging from the ceiling to help practice his flying.  Four archery targets to help him control where he shoots his fireballs. Also training dummies for him to fight. North is Bedroom, and west is the Living room.
+
+You can see Alfred here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x20c6be0" />
+    </children>
+  </item>
+  <item nodeId="node-0x20c6be0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x686d060" />
+    </children>
+  </item>
+  <item nodeId="node-0x686d060">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x68977c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68977c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+Draco the dragon is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x688e190" />
+    </children>
+  </item>
+  <item nodeId="node-0x688e190">
+    <command xml:space="preserve">pick up draco</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x687b980" />
+    </children>
+  </item>
+  <item nodeId="node-0x687b980">
+    <command xml:space="preserve">put draco in cage</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+  </item>
+  <item nodeId="node-0x682b340">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Living room
@@ -1734,10 +2408,10 @@ Living room
     <changed>NO</changed>
     <temporary score="13">YES</temporary>
     <children>
-      <child nodeId="node-0x249ba50" />
+      <child nodeId="node-0x682b3b0" />
     </children>
   </item>
-  <item nodeId="node-0x249ba50">
+  <item nodeId="node-0x682b3b0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Training Room
@@ -1747,10 +2421,10 @@ Training Room
     <changed>NO</changed>
     <temporary score="13">YES</temporary>
     <children>
-      <child nodeId="node-0x249bac0" />
+      <child nodeId="node-0x682b420" />
     </children>
   </item>
-  <item nodeId="node-0x249bac0">
+  <item nodeId="node-0x682b420">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bedroom
@@ -1760,16 +2434,16 @@ Bedroom
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
     <children>
-      <child nodeId="node-0x249bb30" />
+      <child nodeId="node-0x682b490" />
     </children>
   </item>
-  <item nodeId="node-0x249bb30">
+  <item nodeId="node-0x682b490">
     <command xml:space="preserve">s</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
   </item>
-  <item nodeId="node-0x249bba0">
+  <item nodeId="node-0x682b500">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Training Room
@@ -1784,11 +2458,11 @@ Draco the dragon leaves.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x249bdd0" />
-      <child nodeId="node-0x249bc10" />
+      <child nodeId="node-0x682a8f0" />
+      <child nodeId="node-0x682b570" />
     </children>
   </item>
-  <item nodeId="node-0x249bc10">
+  <item nodeId="node-0x682b570">
     <command xml:space="preserve">talk to alred</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -1797,10 +2471,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x249bc80" />
+      <child nodeId="node-0x682b5e0" />
     </children>
   </item>
-  <item nodeId="node-0x249bc80">
+  <item nodeId="node-0x682b5e0">
     <command xml:space="preserve">ask alfred about the Draco</command>
     <result xml:space="preserve">There is no reply.
 
@@ -1809,10 +2483,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x249bcf0" />
+      <child nodeId="node-0x682a830" />
     </children>
   </item>
-  <item nodeId="node-0x249bcf0">
+  <item nodeId="node-0x682a830">
     <command xml:space="preserve">Ask alfred</command>
     <result xml:space="preserve">(for Alfred)
 (Alfred first taking Alfred)
@@ -1823,10 +2497,10 @@ Alfred has better things to do.
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x249bd60" />
+      <child nodeId="node-0x682a880" />
     </children>
   </item>
-  <item nodeId="node-0x249bd60">
+  <item nodeId="node-0x682a880">
     <command xml:space="preserve">ask Alfred about Draco</command>
     <result xml:space="preserve">No sir, I haven&apos;t seen Draco around here recently. He&apos;s probaly wondering around. I think I closed all the windows. Better find him quick.
 
@@ -1837,7 +2511,7 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
   </item>
-  <item nodeId="node-0x249bdd0">
+  <item nodeId="node-0x682a8f0">
     <command xml:space="preserve">ask alfred about draco</command>
     <result xml:space="preserve">No sir, I haven&apos;t seen Draco around here recently. He&apos;s probaly wondering around. I think I closed all the windows. Better find him quick.
 
@@ -1846,10 +2520,10 @@ Draco the dragon is here.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x249be40" />
+      <child nodeId="node-0x682a960" />
     </children>
   </item>
-  <item nodeId="node-0x249be40">
+  <item nodeId="node-0x682a960">
     <command xml:space="preserve">ask alfred about Dragon gloves</command>
     <result xml:space="preserve">Yes I might know where those gloves are, but I think I need a little cash to jog my memory.
 
@@ -1860,10 +2534,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x249beb0" />
+      <child nodeId="node-0x682a9d0" />
     </children>
   </item>
-  <item nodeId="node-0x249beb0">
+  <item nodeId="node-0x682a9d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bedroom
@@ -1876,10 +2550,10 @@ You can see Pillow, Wood drawer (closed) and Sleep clothes here.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x249bf20" />
+      <child nodeId="node-0x682aa40" />
     </children>
   </item>
-  <item nodeId="node-0x249bf20">
+  <item nodeId="node-0x682aa40">
     <command xml:space="preserve">open drawer</command>
     <result xml:space="preserve">You open Wood drawer, revealing Money.
 
@@ -1890,10 +2564,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x249bf90" />
+      <child nodeId="node-0x682aab0" />
     </children>
   </item>
-  <item nodeId="node-0x249bf90">
+  <item nodeId="node-0x682aab0">
     <command xml:space="preserve">take money</command>
     <result xml:space="preserve">Taken.
 
@@ -1904,10 +2578,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x249c000" />
+      <child nodeId="node-0x682ab20" />
     </children>
   </item>
-  <item nodeId="node-0x249c000">
+  <item nodeId="node-0x682ab20">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Training Room
@@ -1922,10 +2596,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x249c070" />
+      <child nodeId="node-0x682ab90" />
     </children>
   </item>
-  <item nodeId="node-0x249c070">
+  <item nodeId="node-0x682ab90">
     <command xml:space="preserve">ask alfred about dragon gloves</command>
     <result xml:space="preserve">Yes I might know where those gloves are, but I think I need a little cash to jog my memory.
 
@@ -1934,10 +2608,10 @@ Draco the dragon leaves.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x249c0e0" />
+      <child nodeId="node-0x682ac00" />
     </children>
   </item>
-  <item nodeId="node-0x249c0e0">
+  <item nodeId="node-0x682ac00">
     <command xml:space="preserve">give money to alfred</command>
     <result xml:space="preserve">Oh yes the gloves are in my back pocket. Hear you go.
 
@@ -1946,10 +2620,10 @@ Draco the dragon leaves.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x249c150" />
+      <child nodeId="node-0x682ac70" />
     </children>
   </item>
-  <item nodeId="node-0x249c150">
+  <item nodeId="node-0x682ac70">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a pair of Dragon gloves
@@ -1959,10 +2633,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x249c1c0" />
+      <child nodeId="node-0x682ace0" />
     </children>
   </item>
-  <item nodeId="node-0x249c1c0">
+  <item nodeId="node-0x682ace0">
     <command xml:space="preserve">x dragon gloves</command>
     <result xml:space="preserve">A pair of Dragon gloves that are made out of sturdy, thick, fireproof material. It looks like if you wore them they would protect your hands from all sorts of things. Like Dragons.
 
@@ -1971,10 +2645,10 @@ Draco the dragon leaves.
     <changed>NO</changed>
     <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x249c230" />
+      <child nodeId="node-0x682ad50" />
     </children>
   </item>
-  <item nodeId="node-0x249c230">
+  <item nodeId="node-0x682ad50">
     <command xml:space="preserve">wear gloves</command>
     <result xml:space="preserve">You put on the pair of Dragon gloves.
 
@@ -1983,7 +2657,7 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
   </item>
-  <item nodeId="node-0x249c2a0">
+  <item nodeId="node-0x682adc0">
     <command xml:space="preserve">take TV</command>
     <result xml:space="preserve">I dont think your strong enough for that.
 
@@ -1992,10 +2666,10 @@ Draco the dragon leaves.
     <changed>NO</changed>
     <temporary score="1">YES</temporary>
     <children>
-      <child nodeId="node-0x249c310" />
+      <child nodeId="node-0x682ae30" />
     </children>
   </item>
-  <item nodeId="node-0x249c310">
+  <item nodeId="node-0x682ae30">
     <command xml:space="preserve">x toy</command>
     <result xml:space="preserve">A stuffed animal toy of a goat that Draco ripped apart this morning.
 
@@ -2004,264 +2678,110 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x249c380" />
+      <child nodeId="node-0x682aea0" />
     </children>
   </item>
-  <item nodeId="node-0x249c380">
+  <item nodeId="node-0x682aea0">
     <command xml:space="preserve">x picture</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
   </item>
-  <item nodeId="node-0x7077ec0">
-    <command xml:space="preserve">x toy</command>
-    <result xml:space="preserve">A stuffed animal toy of a goat that Draco ripped apart this morning.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2498860" />
-      <child nodeId="node-0x2498e90" />
-      <child nodeId="node-0x7077f10" />
-    </children>
-  </item>
-  <item nodeId="node-0x7077f10">
-    <command xml:space="preserve">x piture</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x7077f60" />
-    </children>
-  </item>
-  <item nodeId="node-0x7077f60">
-    <command xml:space="preserve">x picture</command>
-    <result xml:space="preserve">It&apos;s a picture of Draco when he was little.  You and him where in the training room learning how to shoot fireballs at the archery targets.
-
-Draco the dragon is here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x7078250" />
-    </children>
-  </item>
-  <item nodeId="node-0x7078250">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Kitchen
-A room where you cook up one the most finest dishes in the land. Learning your skills from your mother who is cook for the king. All the appliances in this room are top of the line. Living Room is to the south.
-
-You can see Dining table, Chair and Food bowl here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x70782c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x70782c0">
-    <command xml:space="preserve">x Dining Table</command>
-    <result xml:space="preserve">A table made out of pure gold. You couldn&apos;t ask for a better thing to eat on.
-
-Draco the dragon is here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x7078330" />
-    </children>
-  </item>
-  <item nodeId="node-0x7078330">
-    <command xml:space="preserve">Take table</command>
-    <result xml:space="preserve">Let&apos;s be honest you can&apos;t carry that.
-
-Draco the dragon leaves.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2497c00" />
-    </children>
-  </item>
-  <item nodeId="node-0x2497c00">
-    <command xml:space="preserve">take chair</command>
-    <result xml:space="preserve">Do you really want to carry that around with you?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2497c50" />
-    </children>
-  </item>
-  <item nodeId="node-0x2497c50">
-    <command xml:space="preserve">take bowl</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2497ca0" />
-    </children>
-  </item>
-  <item nodeId="node-0x2497ca0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Living room
-The main part of this house. This is where everyone like to hangout. There is a 75 inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east.
-
-You can see Stuffed Toy and Picture here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2497d10" />
-    </children>
-  </item>
-  <item nodeId="node-0x2497d10">
+  <item nodeId="node-0x1b2400">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Basement
-A room that your store all the stuff  that Draco has ripped apart, chewed or burnt. Theres the first beanbag that he first ripped apart. Also his cage that you brought him home in. North is the Living room
+A room that your store all the stuff  that Draco has ripped apart, chewed or burnt. Theres the first beanbag that he first ripped apart. Also his cage that you brought him home in. North is the Living room.
 
 You can see Beanbag and Cage (empty) here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="67">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x2497d80" />
+      <child nodeId="node-0x1b4430" />
     </children>
   </item>
-  <item nodeId="node-0x2497d80">
+  <item nodeId="node-0x1b4430">
+    <command xml:space="preserve">close cage</command>
+    <result xml:space="preserve">It isn&apos;t something you can close.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b4480" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b4480">
+    <command xml:space="preserve">open cage</command>
+    <result xml:space="preserve">It isn&apos;t something you can open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x202c0a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x202c0a0">
     <command xml:space="preserve">take cage</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="67">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x2497eb0" />
+      <child nodeId="node-0x202c0f0" />
     </children>
   </item>
-  <item nodeId="node-0x2497eb0">
-    <command xml:space="preserve">put bowl in cage</command>
-    <result xml:space="preserve">You put Food bowl into Cage.
+  <item nodeId="node-0x202c0f0">
+    <command xml:space="preserve">x cage</command>
+    <result xml:space="preserve"> A cage that you use to hold Draco if he&apos;s ever being bad or when you want to take him on vacation. The cage is made out of platnium becuase it&apos;s always the best for your dragon.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="67">YES</temporary>
+    <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x70783c0" />
+      <child nodeId="node-0x202c160" />
     </children>
   </item>
-  <item nodeId="node-0x70783c0">
-    <command xml:space="preserve">put draco in cage</command>
+  <item nodeId="node-0x202c160">
+    <command xml:space="preserve">money</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x682ebb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x682ebb0">
+    <command xml:space="preserve">x money</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="67">YES</temporary>
+    <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x2497f00" />
+      <child nodeId="node-0x682ec00" />
     </children>
   </item>
-  <item nodeId="node-0x2497f00">
-    <command xml:space="preserve">take bowl out of cage</command>
-    <result xml:space="preserve">I only understood you as far as wanting to take Food bowl.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2497f70" />
-    </children>
-  </item>
-  <item nodeId="node-0x2497f70">
-    <command xml:space="preserve">take bowl</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2497fe0" />
-    </children>
-  </item>
-  <item nodeId="node-0x2497fe0">
-    <command xml:space="preserve">drop bowl</command>
-    <result xml:space="preserve">Dropped.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2498050" />
-    </children>
-  </item>
-  <item nodeId="node-0x2498050">
+  <item nodeId="node-0x682ec00">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Living room
 The main part of this house. This is where everyone like to hangout. There is a 75 inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east.
 
-You can see Stuffed Toy and Picture here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x24980c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x24980c0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Training Room
-A room where you made specifically to train Draco.  Theres ropes hanging from the cieling to help pratice his flying.  Four archery targets to helps him control where he shoots his fireballs. Also training dummies for him to fight.
-
-You can see Alfred here.
-
-Draco the dragon is here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2498130" />
-    </children>
-  </item>
-  <item nodeId="node-0x2498130">
-    <command xml:space="preserve">ask alfred about Dragon gloves</command>
-    <result xml:space="preserve">Yes I might know where those gloves are, but I think I need a little cash to jog my memory.
+You can see Draco, Stuffed Toy and Picture here.
 
 Draco the dragon leaves.
 Draco the dragon is here.
@@ -2269,118 +2789,149 @@ Draco the dragon is here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="67">YES</temporary>
+    <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x2497df0" />
+      <child nodeId="node-0x682ec50" />
     </children>
   </item>
-  <item nodeId="node-0x2497df0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Bedroom
-The place where you and Draco sleep. Sometimes you have to sleep on the floor becuase he pushes you off the bed to have the whole bed to himself.
-
-You can see Pillow, Wood drawer (closed) and Sleep clothes here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2497e40" />
-    </children>
-  </item>
-  <item nodeId="node-0x2497e40">
-    <command xml:space="preserve">x drawer</command>
-    <result xml:space="preserve">A drawer to store things.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2498320" />
-    </children>
-  </item>
-  <item nodeId="node-0x2498320">
-    <command xml:space="preserve">open drawer</command>
-    <result xml:space="preserve">You open Wood drawer, revealing Money.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2498390" />
-    </children>
-  </item>
-  <item nodeId="node-0x2498390">
-    <command xml:space="preserve">take onety</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2498400" />
-    </children>
-  </item>
-  <item nodeId="node-0x2498400">
-    <command xml:space="preserve">take money</command>
-    <result xml:space="preserve">Taken.
-
-Draco the dragon is here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2498470" />
-    </children>
-  </item>
-  <item nodeId="node-0x2498470">
-    <command xml:space="preserve">s</command>
+  <item nodeId="node-0x682ec50">
+    <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Training Room
-A room where you made specifically to train Draco.  Theres ropes hanging from the cieling to help pratice his flying.  Four archery targets to helps him control where he shoots his fireballs. Also training dummies for him to fight.
+A room where you made specifically to train Draco.  Theres ropes hanging from the cieling to help pratice his flying.  Four archery targets to helps him control where he shoots his fireballs. Also training dummies for him to fight. North is Bedroom, and west is the Living room.
 
 You can see Alfred here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="67">YES</temporary>
+    <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x24984e0" />
+      <child nodeId="node-0x682eca0" />
     </children>
   </item>
-  <item nodeId="node-0x24984e0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can&apos;t go that way.
+  <item nodeId="node-0x682eca0">
+    <command xml:space="preserve">ask alfred about the gloves</command>
+    <result xml:space="preserve">There is no reply.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="67">YES</temporary>
+    <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x2498550" />
+      <child nodeId="node-0x682ed10" />
     </children>
   </item>
-  <item nodeId="node-0x2498550">
+  <item nodeId="node-0x682ed10">
+    <command xml:space="preserve">ask alfred about gloves</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x682e310" />
+    </children>
+  </item>
+  <item nodeId="node-0x682e310">
+    <command xml:space="preserve">ask alfred about dragon gloves</command>
+    <result xml:space="preserve">Yes I might know where those gloves are, but I think I need a little cash to jog my memory.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x202c1f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x202c1f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Bedroom
+The place where you and Draco sleep. Sometimes you have to sleep on the floor becuase he pushes you off the bed to have the whole bed to himself. South is the Training room.
+
+You can see Draco, Pillow, Wood drawer (closed) and Sleep clothes here.
+
+Draco the dragon leaves.
+Draco the dragon is here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x682e360" />
+    </children>
+  </item>
+  <item nodeId="node-0x682e360">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open Wood drawer, revealing Money.
+
+Draco the dragon leaves.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x682e3b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x682e3b0">
+    <command xml:space="preserve">take monet</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x682e420" />
+    </children>
+  </item>
+  <item nodeId="node-0x682e420">
+    <command xml:space="preserve">take money</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x682e490" />
+    </children>
+  </item>
+  <item nodeId="node-0x682e490">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Training Room
+A room where you made specifically to train Draco.  Theres ropes hanging from the cieling to help pratice his flying.  Four archery targets to helps him control where he shoots his fireballs. Also training dummies for him to fight. North is Bedroom, and west is the Living room.
+
+You can see Alfred here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x682e500" />
+    </children>
+  </item>
+  <item nodeId="node-0x682e500">
     <command xml:space="preserve">give money to alfred</command>
     <result xml:space="preserve">Oh yes the gloves are in my back pocket. Hear you go.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="67">YES</temporary>
+    <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x24985c0" />
+      <child nodeId="node-0x682e570" />
     </children>
   </item>
-  <item nodeId="node-0x24985c0">
+  <item nodeId="node-0x682e570">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a pair of Dragon gloves
@@ -2389,264 +2940,100 @@ You can see Alfred here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="67">YES</temporary>
+    <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x2498630" />
+      <child nodeId="node-0x682ed80" />
     </children>
   </item>
-  <item nodeId="node-0x2498630">
-    <command xml:space="preserve">waer gloves</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x24986a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x24986a0">
+  <item nodeId="node-0x682ed80">
     <command xml:space="preserve">wear gloves</command>
     <result xml:space="preserve">You put on the pair of Dragon gloves.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="67">YES</temporary>
+    <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x2498710" />
+      <child nodeId="node-0x682edd0" />
     </children>
   </item>
-  <item nodeId="node-0x2498710">
+  <item nodeId="node-0x682edd0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Living room
 The main part of this house. This is where everyone like to hangout. There is a 75 inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east.
 
-You can see Draco, Stuffed Toy and Picture here.
-
-Draco the dragon leaves.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2498780" />
-    </children>
-  </item>
-  <item nodeId="node-0x2498780">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Kitchen
-A room where you cook up one the most finest dishes in the land. Learning your skills from your mother who is cook for the king. All the appliances in this room are top of the line. Living Room is to the south.
-
-You can see Draco, Dining table and Chair here.
-
-Draco the dragon leaves.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x24981a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x24981a0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Living room
-The main part of this house. This is where everyone like to hangout. There is a 75 inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east.
-
-You can see Draco, Stuffed Toy and Picture here.
-
-Draco the dragon leaves.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2498210" />
-    </children>
-  </item>
-  <item nodeId="node-0x2498210">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Basement
-A room that your store all the stuff  that Draco has ripped apart, chewed or burnt. Theres the first beanbag that he first ripped apart. Also his cage that you brought him home in. North is the Living room
-
-You can see Food bowl and Beanbag here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2498280" />
-    </children>
-  </item>
-  <item nodeId="node-0x2498280">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Living room
-The main part of this house. This is where everyone like to hangout. There is a 75 inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east.
-
 You can see Stuffed Toy and Picture here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="67">YES</temporary>
+    <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x2498a30" />
+      <child nodeId="node-0x682e760" />
     </children>
   </item>
-  <item nodeId="node-0x2498a30">
+  <item nodeId="node-0x682e760">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Kitchen
 A room where you cook up one the most finest dishes in the land. Learning your skills from your mother who is cook for the king. All the appliances in this room are top of the line. Living Room is to the south.
 
-You can see Draco, Dining table and Chair here.
+You can see Draco, Dining table, Chair and Food bowl here.
 
 Draco the dragon leaves.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="67">YES</temporary>
+    <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x2498aa0" />
+      <child nodeId="node-0x682e7d0" />
     </children>
   </item>
-  <item nodeId="node-0x2498aa0">
+  <item nodeId="node-0x682e7d0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Living room
 The main part of this house. This is where everyone like to hangout. There is a 75 inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east.
 
 You can see Stuffed Toy and Picture here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2498b10" />
-    </children>
-  </item>
-  <item nodeId="node-0x2498b10">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Kitchen
-A room where you cook up one the most finest dishes in the land. Learning your skills from your mother who is cook for the king. All the appliances in this room are top of the line. Living Room is to the south.
-
-You can see Dining table and Chair here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2498b80" />
-    </children>
-  </item>
-  <item nodeId="node-0x2498b80">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2498bf0" />
-    </children>
-  </item>
-  <item nodeId="node-0x2498bf0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Living room
-The main part of this house. This is where everyone like to hangout. There is a 75 inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east.
-
-You can see Stuffed Toy and Picture here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2498c60" />
-    </children>
-  </item>
-  <item nodeId="node-0x2498c60">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Training Room
-A room where you made specifically to train Draco.  Theres ropes hanging from the cieling to help pratice his flying.  Four archery targets to helps him control where he shoots his fireballs. Also training dummies for him to fight.
-
-You can see Draco and Alfred here.
-
-Draco the dragon leaves.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2498cd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x2498cd0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Bedroom
-The place where you and Draco sleep. Sometimes you have to sleep on the floor becuase he pushes you off the bed to have the whole bed to himself.
-
-You can see Pillow, Wood drawer (empty) and Sleep clothes here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="67">YES</temporary>
-    <children>
-      <child nodeId="node-0x2498d40" />
-    </children>
-  </item>
-  <item nodeId="node-0x2498d40">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Training Room
-A room where you made specifically to train Draco.  Theres ropes hanging from the cieling to help pratice his flying.  Four archery targets to helps him control where he shoots his fireballs. Also training dummies for him to fight.
-
-You can see Alfred here.
 
 Draco the dragon is here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="67">YES</temporary>
+    <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x2498db0" />
+      <child nodeId="node-0x682dd20" />
     </children>
   </item>
-  <item nodeId="node-0x2498db0">
+  <item nodeId="node-0x682dd20">
     <command xml:space="preserve">take draco</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="67">YES</temporary>
+    <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x2498e20" />
+      <child nodeId="node-0x682dd70" />
     </children>
   </item>
-  <item nodeId="node-0x2498e20">
+  <item nodeId="node-0x682dd70">
+    <command xml:space="preserve">pur draco in cage</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="96">YES</temporary>
+    <children>
+      <child nodeId="node-0x682dde0" />
+    </children>
+  </item>
+  <item nodeId="node-0x682dde0">
     <command xml:space="preserve">put draco in cage</command>
     <result xml:space="preserve">You put Draco into Cage.
 
@@ -2660,122 +3047,31 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="66">YES</temporary>
-  </item>
-  <item nodeId="node-0x2498e90">
-    <command xml:space="preserve">take toy</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
+    <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x2498f00" />
+      <child nodeId="node-0x682de50" />
     </children>
   </item>
-  <item nodeId="node-0x2498f00">
-    <command xml:space="preserve">x picute</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
+  <item nodeId="node-0x682de50">
+    <command xml:space="preserve">restore</command>
+    <result xml:space="preserve">Restore failed.
 
-&gt;</result>
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="10">YES</temporary>
+    <temporary score="96">YES</temporary>
     <children>
-      <child nodeId="node-0x2498f70" />
+      <child nodeId="node-0x682dec0" />
     </children>
   </item>
-  <item nodeId="node-0x2498f70">
-    <command xml:space="preserve">x picture</command>
-    <result xml:space="preserve">It&apos;s a picture of Draco when he was little.  You and him where in the training room learning how to shoot fireballs at the archery targets.
-
-&gt;</result>
+  <item nodeId="node-0x682dec0">
+    <command xml:space="preserve">restart</command>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x2498fe0" />
-    </children>
+    <temporary score="95">YES</temporary>
   </item>
-  <item nodeId="node-0x2498fe0">
-    <command xml:space="preserve">take picture</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x2499050" />
-    </children>
-  </item>
-  <item nodeId="node-0x2499050">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  Picture
-  Stuffed Toy
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x24990c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x24990c0">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Living room
-The main part of this house. This is where everyone like to hangout. There is a 75 inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x2499130" />
-    </children>
-  </item>
-  <item nodeId="node-0x2499130">
-    <command xml:space="preserve">x TV</command>
-    <result xml:space="preserve">A TV that you and Draco like to watch movies on.  His favorite movie is How To Train Your Dragon.  Everytime he watches that movie he gets exited and shoots a random fireball.
-
-Draco the dragon is here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x24987f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x24987f0">
-    <command xml:space="preserve">Take Draco</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="9">YES</temporary>
-  </item>
-  <item nodeId="node-0x2498860">
-    <command xml:space="preserve"> take toy</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="5">YES</temporary>
-    <children>
-      <child nodeId="node-0x24988d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x24988d0">
-    <command xml:space="preserve">take TV</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="4">YES</temporary>
-  </item>
-  <item nodeId="node-0x249d030">
+  <item nodeId="node-0x6828fe0">
     <command xml:space="preserve">go n</command>
     <result xml:space="preserve">
 Kitchen
@@ -2788,10 +3084,10 @@ You can see Dining table, a pair of Dragon gloves, Chair and Food bowl here.
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
     <children>
-      <child nodeId="node-0x249d0a0" />
+      <child nodeId="node-0x6829050" />
     </children>
   </item>
-  <item nodeId="node-0x249d0a0">
+  <item nodeId="node-0x6829050">
     <command xml:space="preserve">take gloves</command>
     <result xml:space="preserve">Taken.
 
@@ -2800,10 +3096,10 @@ You can see Dining table, a pair of Dragon gloves, Chair and Food bowl here.
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
     <children>
-      <child nodeId="node-0x249d110" />
+      <child nodeId="node-0x6828320" />
     </children>
   </item>
-  <item nodeId="node-0x249d110">
+  <item nodeId="node-0x6828320">
     <command xml:space="preserve">wear gloves</command>
     <result xml:space="preserve">You put on the pair of Dragon gloves.
 
@@ -2812,10 +3108,10 @@ You can see Dining table, a pair of Dragon gloves, Chair and Food bowl here.
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
     <children>
-      <child nodeId="node-0x249d180" />
+      <child nodeId="node-0x6828370" />
     </children>
   </item>
-  <item nodeId="node-0x249d180">
+  <item nodeId="node-0x6828370">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Living room
@@ -2828,10 +3124,10 @@ You can see Stuffed Toy and Picture here.
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
     <children>
-      <child nodeId="node-0x249d1f0" />
+      <child nodeId="node-0x68283e0" />
     </children>
   </item>
-  <item nodeId="node-0x249d1f0">
+  <item nodeId="node-0x68283e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Basement
@@ -2844,10 +3140,10 @@ You can see Beanbag and Cage (empty) here.
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
     <children>
-      <child nodeId="node-0x249d260" />
+      <child nodeId="node-0x6828450" />
     </children>
   </item>
-  <item nodeId="node-0x249d260">
+  <item nodeId="node-0x6828450">
     <command xml:space="preserve">take cage</command>
     <result xml:space="preserve">Taken.
 
@@ -2856,10 +3152,10 @@ You can see Beanbag and Cage (empty) here.
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
     <children>
-      <child nodeId="node-0x249d2d0" />
+      <child nodeId="node-0x68284c0" />
     </children>
   </item>
-  <item nodeId="node-0x249d2d0">
+  <item nodeId="node-0x68284c0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Living room
@@ -2872,10 +3168,10 @@ You can see Stuffed Toy and Picture here.
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
     <children>
-      <child nodeId="node-0x249d340" />
+      <child nodeId="node-0x6828530" />
     </children>
   </item>
-  <item nodeId="node-0x249d340">
+  <item nodeId="node-0x6828530">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Training Room
@@ -2886,10 +3182,10 @@ A room where you made specifically to train Draco.  Theres ropes hanging from th
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
     <children>
-      <child nodeId="node-0x249d3b0" />
+      <child nodeId="node-0x68285a0" />
     </children>
   </item>
-  <item nodeId="node-0x249d3b0">
+  <item nodeId="node-0x68285a0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bedroom
@@ -2902,10 +3198,10 @@ You can see Pillow and Sleep clothes here.
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
     <children>
-      <child nodeId="node-0x249d420" />
+      <child nodeId="node-0x6828610" />
     </children>
   </item>
-  <item nodeId="node-0x249d420">
+  <item nodeId="node-0x6828610">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Training Room
@@ -2916,10 +3212,10 @@ A room where you made specifically to train Draco.  Theres ropes hanging from th
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
     <children>
-      <child nodeId="node-0x249d490" />
+      <child nodeId="node-0x6828680" />
     </children>
   </item>
-  <item nodeId="node-0x249d490">
+  <item nodeId="node-0x6828680">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2928,10 +3224,10 @@ A room where you made specifically to train Draco.  Theres ropes hanging from th
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
     <children>
-      <child nodeId="node-0x249d500" />
+      <child nodeId="node-0x68286f0" />
     </children>
   </item>
-  <item nodeId="node-0x249d500">
+  <item nodeId="node-0x68286f0">
     <command xml:space="preserve">take Draco</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2940,7 +3236,7 @@ A room where you made specifically to train Draco.  Theres ropes hanging from th
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
   </item>
-  <item nodeId="node-0x249d570">
+  <item nodeId="node-0x6828760">
     <command xml:space="preserve">x TV</command>
     <result xml:space="preserve">A TV that you and Draco like to watch movies on.  His favorite movie is How To Train Your Dragon.  Everytime he watches that movie he gets exited and shoots a random fireball.
 
@@ -2949,10 +3245,10 @@ A room where you made specifically to train Draco.  Theres ropes hanging from th
     <changed>NO</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249d5e0" />
+      <child nodeId="node-0x68287d0" />
     </children>
   </item>
-  <item nodeId="node-0x249d5e0">
+  <item nodeId="node-0x68287d0">
     <command xml:space="preserve">x chandelier</command>
     <result xml:space="preserve">A glass chandelier that your parents bought from the best craftsman in the land named Edge.
 
@@ -2963,10 +3259,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249d650" />
+      <child nodeId="node-0x6827aa0" />
     </children>
   </item>
-  <item nodeId="node-0x249d650">
+  <item nodeId="node-0x6827aa0">
     <command xml:space="preserve">x couch</command>
     <result xml:space="preserve">A couch that surrounds the TV so you can watch from any view. There are some burnt spots on the couch because over Draco&apos;s over excitement.
 
@@ -2978,10 +3274,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249d6c0" />
+      <child nodeId="node-0x6827af0" />
     </children>
   </item>
-  <item nodeId="node-0x249d6c0">
+  <item nodeId="node-0x6827af0">
     <command xml:space="preserve">x stuffed toy</command>
     <result xml:space="preserve">A stuffed animal toy of a goat that Draco ripped apart this morning.
 
@@ -2992,10 +3288,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249d730" />
+      <child nodeId="node-0x6827b40" />
     </children>
   </item>
-  <item nodeId="node-0x249d730">
+  <item nodeId="node-0x6827b40">
     <command xml:space="preserve">take stuffed toy</command>
     <result xml:space="preserve">Taken.
 
@@ -3006,10 +3302,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249d7a0" />
+      <child nodeId="node-0x6827bb0" />
     </children>
   </item>
-  <item nodeId="node-0x249d7a0">
+  <item nodeId="node-0x6827bb0">
     <command xml:space="preserve">x picture</command>
     <result xml:space="preserve">It&apos;s a picture of Draco when he was little.  You and him where in the training room learning how to shoot fireballs at the archery targets.
 
@@ -3020,10 +3316,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249d810" />
+      <child nodeId="node-0x6827c20" />
     </children>
   </item>
-  <item nodeId="node-0x249d810">
+  <item nodeId="node-0x6827c20">
     <command xml:space="preserve">take picture</command>
     <result xml:space="preserve">Taken.
 
@@ -3032,10 +3328,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249d880" />
+      <child nodeId="node-0x6827c90" />
     </children>
   </item>
-  <item nodeId="node-0x249d880">
+  <item nodeId="node-0x6827c90">
     <command xml:space="preserve">x draco</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3044,10 +3340,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249d8f0" />
+      <child nodeId="node-0x6827d00" />
     </children>
   </item>
-  <item nodeId="node-0x249d8f0">
+  <item nodeId="node-0x6827d00">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Living room
 The main part of this house. This is where everyone like to hangout. There is a 75 inch TV on the east wall and a long circular couch that surrounds the front part of the TV.  Also a glass chandelier that hangs from the ceiling.  The Kitchen is to the north, basement to the south, and the training room to the east.
@@ -3057,10 +3353,10 @@ The main part of this house. This is where everyone like to hangout. There is a 
     <changed>NO</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249d960" />
+      <child nodeId="node-0x6827d70" />
     </children>
   </item>
-  <item nodeId="node-0x249d960">
+  <item nodeId="node-0x6827d70">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Kitchen
@@ -3075,10 +3371,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249d9d0" />
+      <child nodeId="node-0x6827de0" />
     </children>
   </item>
-  <item nodeId="node-0x249d9d0">
+  <item nodeId="node-0x6827de0">
     <command xml:space="preserve">x appliances</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3087,10 +3383,10 @@ Draco the dragon leaves.
     <changed>NO</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249da40" />
+      <child nodeId="node-0x6827e50" />
     </children>
   </item>
-  <item nodeId="node-0x249da40">
+  <item nodeId="node-0x6827e50">
     <command xml:space="preserve">x dining table</command>
     <result xml:space="preserve">A table made out of pure gold. You couldn&apos;t ask for a better thing to eat on.
 
@@ -3099,10 +3395,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249dab0" />
+      <child nodeId="node-0x6827ec0" />
     </children>
   </item>
-  <item nodeId="node-0x249dab0">
+  <item nodeId="node-0x6827ec0">
     <command xml:space="preserve">take table</command>
     <result xml:space="preserve">Let&apos;s be honest you can&apos;t carry that.
 
@@ -3111,10 +3407,10 @@ Draco the dragon leaves.
     <changed>NO</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249db20" />
+      <child nodeId="node-0x6827f30" />
     </children>
   </item>
-  <item nodeId="node-0x249db20">
+  <item nodeId="node-0x6827f30">
     <command xml:space="preserve">take dragon gloves</command>
     <result xml:space="preserve">Taken.
 
@@ -3123,10 +3419,10 @@ Draco the dragon leaves.
     <changed>NO</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249db90" />
+      <child nodeId="node-0x6827fa0" />
     </children>
   </item>
-  <item nodeId="node-0x249db90">
+  <item nodeId="node-0x6827fa0">
     <command xml:space="preserve">x chair</command>
     <result xml:space="preserve">A chair made out of a combination of leather and cotton. Although it seems to be missing a leg. I wonder who could&apos;ve eaten that.
 
@@ -3135,10 +3431,10 @@ Draco the dragon leaves.
     <changed>NO</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249dc00" />
+      <child nodeId="node-0x6828010" />
     </children>
   </item>
-  <item nodeId="node-0x249dc00">
+  <item nodeId="node-0x6828010">
     <command xml:space="preserve">take chair</command>
     <result xml:space="preserve">Do you really want to carry that around with you?
 
@@ -3149,10 +3445,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249dc70" />
+      <child nodeId="node-0x6828080" />
     </children>
   </item>
-  <item nodeId="node-0x249dc70">
+  <item nodeId="node-0x6828080">
     <command xml:space="preserve">x food bowl</command>
     <result xml:space="preserve">A food bowl for Draco. He doesn&apos;t like eating alone so he brings it into the kitchen to eat with you.
 
@@ -3163,10 +3459,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249dce0" />
+      <child nodeId="node-0x68280f0" />
     </children>
   </item>
-  <item nodeId="node-0x249dce0">
+  <item nodeId="node-0x68280f0">
     <command xml:space="preserve">take draco</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3175,10 +3471,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249dd50" />
+      <child nodeId="node-0x68273f0" />
     </children>
   </item>
-  <item nodeId="node-0x249dd50">
+  <item nodeId="node-0x68273f0">
     <command xml:space="preserve">take food bowl</command>
     <result xml:space="preserve">Taken.
 
@@ -3187,10 +3483,10 @@ Draco the dragon leaves.
     <changed>NO</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249ddc0" />
+      <child nodeId="node-0x6827440" />
     </children>
   </item>
-  <item nodeId="node-0x249ddc0">
+  <item nodeId="node-0x6827440">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Kitchen
 A room where you cook up one the most finest dishes in the land. Learning your skills from your mother who is cook for the king. All the appliances in this room are top of the line. Living Room is to the south.
@@ -3202,10 +3498,10 @@ You can see Dining table and Chair here.
     <changed>NO</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249de30" />
+      <child nodeId="node-0x68274b0" />
     </children>
   </item>
-  <item nodeId="node-0x249de30">
+  <item nodeId="node-0x68274b0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Living room
@@ -3220,10 +3516,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249dea0" />
+      <child nodeId="node-0x6827520" />
     </children>
   </item>
-  <item nodeId="node-0x249dea0">
+  <item nodeId="node-0x6827520">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Basement
@@ -3238,10 +3534,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249df10" />
+      <child nodeId="node-0x6827590" />
     </children>
   </item>
-  <item nodeId="node-0x249df10">
+  <item nodeId="node-0x6827590">
     <command xml:space="preserve">take cage</command>
     <result xml:space="preserve">Taken.
 
@@ -3252,10 +3548,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249df80" />
+      <child nodeId="node-0x6827600" />
     </children>
   </item>
-  <item nodeId="node-0x249df80">
+  <item nodeId="node-0x6827600">
     <command xml:space="preserve">put on gloves</command>
     <result xml:space="preserve">You put on the pair of Dragon gloves.
 
@@ -3264,10 +3560,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249dff0" />
+      <child nodeId="node-0x6827670" />
     </children>
   </item>
-  <item nodeId="node-0x249dff0">
+  <item nodeId="node-0x6827670">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Basement
 A room that your store all the stuff  that Draco has ripped apart, chewed or burnt. Theres the first beanbag that he first ripped apart. Also his cage that you brought him home in. North is the Living room
@@ -3279,10 +3575,10 @@ You can see Beanbag here.
     <changed>NO</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249e060" />
+      <child nodeId="node-0x68276e0" />
     </children>
   </item>
-  <item nodeId="node-0x249e060">
+  <item nodeId="node-0x68276e0">
     <command xml:space="preserve">take beanbag</command>
     <result xml:space="preserve">I don&apos;t think you want to do that, it&apos;s about to fall apart.
 
@@ -3293,10 +3589,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249e0d0" />
+      <child nodeId="node-0x6827750" />
     </children>
   </item>
-  <item nodeId="node-0x249e0d0">
+  <item nodeId="node-0x6827750">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Living room
@@ -3307,10 +3603,10 @@ The main part of this house. This is where everyone like to hangout. There is a 
     <changed>NO</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249e140" />
+      <child nodeId="node-0x68277c0" />
     </children>
   </item>
-  <item nodeId="node-0x249e140">
+  <item nodeId="node-0x68277c0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Training Room
@@ -3325,10 +3621,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249e1b0" />
+      <child nodeId="node-0x6827830" />
     </children>
   </item>
-  <item nodeId="node-0x249e1b0">
+  <item nodeId="node-0x6827830">
     <command xml:space="preserve">x dummies</command>
     <result xml:space="preserve">Dummies that knights train on, bfeore they go into battle. Each dummie has thier arm ripped off because the arm is Draco&apos;s favorite part or the human body.
 
@@ -3339,10 +3635,10 @@ Draco the dragon is here.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249e220" />
+      <child nodeId="node-0x68278a0" />
     </children>
   </item>
-  <item nodeId="node-0x249e220">
+  <item nodeId="node-0x68278a0">
     <command xml:space="preserve">put stuffed animal in cage</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -3351,10 +3647,10 @@ Draco the dragon is here.
     <changed>NO</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249e290" />
+      <child nodeId="node-0x6827910" />
     </children>
   </item>
-  <item nodeId="node-0x249e290">
+  <item nodeId="node-0x6827910">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3365,10 +3661,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249e300" />
+      <child nodeId="node-0x6826e60" />
     </children>
   </item>
-  <item nodeId="node-0x249e300">
+  <item nodeId="node-0x6826e60">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3377,10 +3673,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249e370" />
+      <child nodeId="node-0x6826ed0" />
     </children>
   </item>
-  <item nodeId="node-0x249e370">
+  <item nodeId="node-0x6826ed0">
     <command xml:space="preserve">take draco</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3389,10 +3685,10 @@ Draco the dragon leaves.
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249e3e0" />
+      <child nodeId="node-0x6826f40" />
     </children>
   </item>
-  <item nodeId="node-0x249e3e0">
+  <item nodeId="node-0x6826f40">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Training Room
 A room where you made specifically to train Draco.  Theres ropes hanging from the cieling to help pratice his flying.  Four archery targets to helps him control where he shoots his fireballs. Also training dummies for him to fight.
@@ -3402,10 +3698,10 @@ A room where you made specifically to train Draco.  Theres ropes hanging from th
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249e450" />
+      <child nodeId="node-0x6826fb0" />
     </children>
   </item>
-  <item nodeId="node-0x249e450">
+  <item nodeId="node-0x6826fb0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3414,10 +3710,10 @@ A room where you made specifically to train Draco.  Theres ropes hanging from th
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249e4c0" />
+      <child nodeId="node-0x6827020" />
     </children>
   </item>
-  <item nodeId="node-0x249e4c0">
+  <item nodeId="node-0x6827020">
     <command xml:space="preserve">take draco</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3426,10 +3722,10 @@ A room where you made specifically to train Draco.  Theres ropes hanging from th
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249e530" />
+      <child nodeId="node-0x6827090" />
     </children>
   </item>
-  <item nodeId="node-0x249e530">
+  <item nodeId="node-0x6827090">
     <command xml:space="preserve">put draco in cage</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3438,10 +3734,10 @@ A room where you made specifically to train Draco.  Theres ropes hanging from th
     <changed>YES</changed>
     <temporary score="76">YES</temporary>
     <children>
-      <child nodeId="node-0x249e5a0" />
+      <child nodeId="node-0x6827100" />
     </children>
   </item>
-  <item nodeId="node-0x249e5a0">
+  <item nodeId="node-0x6827100">
     <command xml:space="preserve">n</command>
     <played>YES</played>
     <changed>YES</changed>
